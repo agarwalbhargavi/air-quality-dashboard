@@ -2,7 +2,7 @@ const fs = require("fs");
 const csv = require("csv-parser");
 const { createObjectCsvWriter } = require("csv-writer");
 
-// Create transformed_data folder
+
 if (!fs.existsSync("./transformed_data")) {
     fs.mkdirSync("./transformed_data");
 }

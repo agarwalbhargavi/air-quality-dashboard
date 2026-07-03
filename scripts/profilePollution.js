@@ -1,7 +1,7 @@
 const fs = require("fs");
 const csv = require("csv-parser");
 
-// Create reports folder if it doesn't exist
+
 if (!fs.existsSync("./reports")) {
     fs.mkdirSync("./reports");
 }
@@ -15,16 +15,12 @@ fs.createReadStream("./raw_data/pollution.csv")
     })
     .on("end", () => {
 
-        console.log("\n========== POLLUTION PROFILE ==========\n");
+        console.log("\nPOLLUTION PROFILE \n");
 
-        // -------------------------
-        // Total Rows
-        // -------------------------
+  
         console.log("Total Rows :", rows.length);
 
-        // -------------------------
-        // Columns
-        // -------------------------
+    
         const columns = Object.keys(rows[0]);
 
         console.log("Total Columns :", columns.length);
@@ -33,9 +29,6 @@ fs.createReadStream("./raw_data/pollution.csv")
 
         columns.forEach(col => console.log("-", col));
 
-        // -------------------------
-        // Unique Cities
-        // -------------------------
 
         const cities = new Set();
 
@@ -47,9 +40,6 @@ fs.createReadStream("./raw_data/pollution.csv")
 
         console.log("\nUnique Cities :", cities.size);
 
-        // -------------------------
-        // Missing Values
-        // -------------------------
 
         const missing = {};
 
@@ -81,9 +71,7 @@ fs.createReadStream("./raw_data/pollution.csv")
 
         console.table(missing);
 
-        // -------------------------
-        // Duplicate Records
-        // -------------------------
+
 
         const seen = new Set();
 
@@ -108,9 +96,7 @@ fs.createReadStream("./raw_data/pollution.csv")
 
         console.log("\nDuplicate Records :", duplicates);
 
-        // -------------------------
-        // Earliest Date
-        // -------------------------
+
 
         const dates = rows
             .map(row => new Date(row.Date))
@@ -124,9 +110,7 @@ fs.createReadStream("./raw_data/pollution.csv")
 
         console.log("Latest Date :", latest);
 
-        // -------------------------
-        // AQI Statistics
-        // -------------------------
+
 
         const aqi = rows
             .map(row => Number(row.AQI))
@@ -145,10 +129,7 @@ fs.createReadStream("./raw_data/pollution.csv")
 
         console.log("Average AQI :", averageAQI.toFixed(2));
 
-        // -------------------------
-        // Pollutant Statistics
-        // -------------------------
-
+  
         const pollutants = [
 
             "PM2.5",
@@ -207,9 +188,7 @@ fs.createReadStream("./raw_data/pollution.csv")
 
         });
 
-        // -------------------------
-        // Save Report
-        // -------------------------
+
 
         const report = {
 

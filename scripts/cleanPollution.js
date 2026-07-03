@@ -150,7 +150,7 @@ fs.createReadStream("./raw_data/pollution.csv")
 
     await writer.writeRecords(cleanedRows);
 
-    console.log("\n========== CLEANING REPORT ==========\n");
+    console.log("\n CLEANING REPORT \n");
 
     console.log("Total Rows :",totalRows);
 

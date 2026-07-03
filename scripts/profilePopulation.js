@@ -1,18 +1,14 @@
 const fs = require("fs");
 const csv = require("csv-parser");
 
-// ===============================
-// Create reports folder if missing
-// ===============================
+
 if (!fs.existsSync("./reports")) {
     fs.mkdirSync("./reports");
 }
 
 const rows = [];
 
-// ===============================
-// Read CSV
-// ===============================
+
 fs.createReadStream("./raw_data/population.csv")
     .pipe(csv())
     .on("data", (row) => {
@@ -21,18 +17,14 @@ fs.createReadStream("./raw_data/population.csv")
 
     .on("end", () => {
 
-        console.log("\n==============================");
+        
         console.log("POPULATION DATA PROFILE");
-        console.log("==============================\n");
+        
 
-        // -------------------------------
-        // Total Rows
-        // -------------------------------
+      
         console.log("Total Rows:", rows.length);
 
-        // -------------------------------
-        // Total Columns
-        // -------------------------------
+        
         const columns = Object.keys(rows[0]);
 
         console.log("Total Columns:", columns.length);
@@ -43,9 +35,7 @@ fs.createReadStream("./raw_data/population.csv")
             console.log("-", column);
         });
 
-        // -------------------------------
-        // Unique Cities
-        // -------------------------------
+    
         const cities = new Set();
 
         rows.forEach((row) => {
@@ -54,9 +44,7 @@ fs.createReadStream("./raw_data/population.csv")
 
         console.log("\nUnique Cities:", cities.size);
 
-        // -------------------------------
-        // Missing Population
-        // -------------------------------
+      
         let missingPopulation = 0;
 
         rows.forEach((row) => {
@@ -69,9 +57,7 @@ fs.createReadStream("./raw_data/population.csv")
 
         console.log("Missing Population:", missingPopulation);
 
-        // -------------------------------
-        // Minimum Population
-        // -------------------------------
+    
         let minimumPopulation = Infinity;
 
         rows.forEach((row) => {
@@ -86,9 +72,7 @@ fs.createReadStream("./raw_data/population.csv")
 
         console.log("Minimum Population:", minimumPopulation);
 
-        // -------------------------------
-        // Maximum Population
-        // -------------------------------
+       
         let maximumPopulation = -Infinity;
 
         rows.forEach((row) => {
@@ -103,9 +87,6 @@ fs.createReadStream("./raw_data/population.csv")
 
         console.log("Maximum Population:", maximumPopulation);
 
-        // -------------------------------
-        // Report Object
-        // -------------------------------
         const report = {
 
             totalRows: rows.length,
@@ -124,9 +105,7 @@ fs.createReadStream("./raw_data/population.csv")
 
         };
 
-        // -------------------------------
-        // Save JSON Report
-        // -------------------------------
+      
         fs.writeFileSync(
 
             "./reports/population_profile.json",
