@@ -225,5 +225,4 @@ fs.createReadStream("./raw_data/pollution.csv")
         );
 
         console.log("\nProfile Saved Successfully!");
-
     });
