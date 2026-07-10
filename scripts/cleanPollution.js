@@ -161,7 +161,6 @@ fs.createReadStream("./raw_data/pollution.csv")
     console.log("Invalid Dates :",invalidDates);
 
     console.log("Duplicate Rows :",duplicateRows);
-
     console.log("\nCleaned CSV Generated Successfully.");
 
 });
