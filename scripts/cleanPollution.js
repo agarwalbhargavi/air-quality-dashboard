@@ -149,17 +149,11 @@ fs.createReadStream("./raw_data/pollution.csv")
     });
 
     await writer.writeRecords(cleanedRows);
-
     console.log("\n CLEANING REPORT \n");
-
     console.log("Total Rows :",totalRows);
-
     console.log("Clean Rows :",cleanedRows.length);
-
     console.log("Missing Cities :",missingCities);
-
     console.log("Invalid Dates :",invalidDates);
-
     console.log("Duplicate Rows :",duplicateRows);
     console.log("\nCleaned CSV Generated Successfully.");
 
