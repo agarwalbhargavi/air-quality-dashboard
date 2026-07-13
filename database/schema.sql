@@ -1,75 +1,104 @@
+-- =====================================================
+-- AIR QUALITY MONITORING DATABASE SCHEMA
+-- =====================================================
 
+DROP TABLE IF EXISTS pollution;
+DROP TABLE IF EXISTS population;
+DROP TABLE IF EXISTS city_master;
+
+-- =====================================================
+-- CITY MASTER TABLE
+-- =====================================================
+
+CREATE TABLE city_master (
+
+    city_id SERIAL PRIMARY KEY,
+
+    city VARCHAR(100) NOT NULL UNIQUE,
+
+    state VARCHAR(100) NOT NULL,
+
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+
+);
+
+-- =====================================================
+-- POPULATION TABLE
+-- =====================================================
 
 CREATE TABLE population (
 
-    id SERIAL PRIMARY KEY,
+    population_id SERIAL PRIMARY KEY,
 
-    city VARCHAR(100) UNIQUE NOT NULL,
+    city_id INT NOT NULL UNIQUE,
 
-    population BIGINT,
+    population BIGINT NOT NULL,
 
-    area NUMERIC,
-
-    density NUMERIC,
-
-    population_category VARCHAR(20)
+    FOREIGN KEY(city_id)
+    REFERENCES city_master(city_id)
 
 );
 
-
+-- =====================================================
+-- POLLUTION TABLE
+-- =====================================================
 
 CREATE TABLE pollution (
 
-    id SERIAL PRIMARY KEY,
+    pollution_id SERIAL PRIMARY KEY,
 
-    city VARCHAR(100) NOT NULL,
+    city_id INT NOT NULL,
 
-    pollution_date DATE NOT NULL,
+    station VARCHAR(255),
 
-    year INTEGER,
+    pollution_date TIMESTAMP NOT NULL,
 
-    month INTEGER,
+    pollutant VARCHAR(50) NOT NULL,
 
-    day INTEGER,
+    pollutant_value DECIMAL(12,4),
 
-    quarter INTEGER,
+    pollutant_unit VARCHAR(20),
 
-    season VARCHAR(30),
+    latitude DECIMAL(10,6),
 
-    pm25 NUMERIC,
+    longitude DECIMAL(10,6),
 
-    pm10 NUMERIC,
+    source VARCHAR(30) NOT NULL,
 
-    no NUMERIC,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 
-    no2 NUMERIC,
-
-    nox NUMERIC,
-
-    nh3 NUMERIC,
-
-    co NUMERIC,
-
-    so2 NUMERIC,
-
-    o3 NUMERIC,
-
-    benzene NUMERIC,
-
-    toluene NUMERIC,
-
-    xylene NUMERIC,
-
-    aqi NUMERIC,
-
-    aqi_bucket VARCHAR(50)
+    FOREIGN KEY(city_id)
+    REFERENCES city_master(city_id)
 
 );
 
-CREATE INDEX idx_city ON pollution(city);
+-- =====================================================
+-- INDEXES
+-- =====================================================
 
-CREATE INDEX idx_date ON pollution(pollution_date);
+CREATE INDEX idx_city
+ON pollution(city_id);
 
-CREATE INDEX idx_year ON pollution(year);
+CREATE INDEX idx_date
+ON pollution(pollution_date);
 
-CREATE INDEX idx_season ON pollution(season);
+CREATE INDEX idx_pollutant
+ON pollution(pollutant);
+
+CREATE INDEX idx_source
+ON pollution(source);
+
+-- =====================================================
+-- PREVENT DUPLICATE RECORDS
+-- =====================================================
+
+ALTER TABLE pollution
+ADD CONSTRAINT unique_pollution_record
+UNIQUE
+(
+    city_id,
+    station,
+    pollution_date,
+    pollutant,
+    source
+);

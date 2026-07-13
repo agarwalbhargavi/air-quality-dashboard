@@ -1,0 +1,46 @@
+{
+    "totalRows": 3493,
+    "totalColumns": 11,
+    "columns": [
+        "country",
+        "state",
+        "city",
+        "station",
+        "last_update",
+        "latitude",
+        "longitude",
+        "pollutant_id",
+        "pollutant_min",
+        "pollutant_max",
+        "pollutant_avg"
+    ],
+    "uniqueCountries": 1,
+    "uniqueStates": 30,
+    "uniqueCities": 262,
+    "uniqueStations": 499,
+    "duplicateRecords": 0,
+    "earliestReading": "2026-09-07T15:30:00.000Z",
+    "latestReading": "2026-09-07T15:30:00.000Z",
+    "missingValues": {
+        "country": 0,
+        "state": 0,
+        "city": 0,
+        "station": 0,
+        "last_update": 0,
+        "latitude": 0,
+        "longitude": 0,
+        "pollutant_id": 0,
+        "pollutant_min": 0,
+        "pollutant_max": 0,
+        "pollutant_avg": 0
+    },
+    "pollutantDistribution": {
+        "CO": 499,
+        "PM2.5": 499,
+        "OZONE": 499,
+        "SO2": 499,
+        "NO2": 499,
+        "PM10": 499,
+        "NH3": 499
+    }
+}

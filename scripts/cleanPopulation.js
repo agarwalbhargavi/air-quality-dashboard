@@ -2,7 +2,7 @@ const fs = require("fs");
 const csv = require("csv-parser");
 const { createObjectCsvWriter } = require("csv-writer");
 
-const fs = require("fs");
+
 
 if (!fs.existsSync("./cleaned_data")) {
     fs.mkdirSync("./cleaned_data");
