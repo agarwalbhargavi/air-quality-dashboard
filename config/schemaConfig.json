@@ -1,0 +1,16 @@
+{
+  "sources": [
+    {
+      "agency": "AgencyA",
+      "schema": "SchemaA",
+      "inputFolder": "./drop/agencyA",
+      "transformScript": "transformSchemaA"
+    },
+    {
+      "agency": "AgencyB",
+      "schema": "SchemaB",
+      "inputFolder": "./drop/agencyB",
+      "transformScript": "transformSchemaB"
+    }
+  ]
+}

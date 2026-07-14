@@ -2,125 +2,125 @@ city,state,source
 Agartala,Tripura,Pollution2
 Agra,Uttar Pradesh,Pollution2
 Ahmedabad,Gujarat,Pollution1
-Ahmednagar,Unknown,Pollution2
+Ahmednagar,Maharashtra,Pollution2
 Aizawl,Mizoram,Pollution1
-Ajmer,Unknown,Pollution2
-Akola,Unknown,Pollution2
-Aligarh,Unknown,Population
-Allahabad,Unknown,Population
-Alwar,Unknown,Pollution2
+Ajmer,Rajasthan,Pollution2
+Akola,Maharashtra,Pollution2
+Aligarh,Uttar Pradesh,Population
+Allahabad,Uttar Pradesh,Population
+Alwar,Rajasthan,Pollution2
 Amaravati,Andhra Pradesh,Pollution1
-Ambala,Unknown,Pollution2
-Ambernath,Unknown,Pollution2
-Amravati,Unknown,Pollution2
-Amritsar,Unknown,Pollution1
-Anantapur,Unknown,Pollution2
-Angul,Unknown,Pollution2
-Araria,Unknown,Pollution2
-Arrah,Unknown,Pollution2
-Asansol,Unknown,Pollution2
-Aurangabad,Unknown,Pollution2
+Ambala,Haryana,Pollution2
+Ambernath,Maharashtra,Pollution2
+Amravati,Maharashtra,Pollution2
+Amritsar,Punjab,Pollution1
+Anantapur,Andhra Pradesh,Pollution2
+Angul,Odisha,Pollution2
+Araria,Bihar,Pollution2
+Arrah,Bihar,Pollution2
+Asansol,West Bengal,Pollution2
+Aurangabad,Maharashtra,Pollution2
 Average,Unknown,Population
-Baddi,Unknown,Pollution2
-Badlapur,Unknown,Pollution2
-Bagalkot,Unknown,Pollution2
-Baghpat,Unknown,Pollution2
-Bahadurgarh,Unknown,Pollution2
-Balasore,Unknown,Pollution2
-Ballabgarh,Unknown,Pollution2
-Banswara,Unknown,Pollution2
-Baran,Unknown,Pollution2
-Barbil,Unknown,Pollution2
-Bareilly,Unknown,Pollution2
-Baripada,Unknown,Pollution2
-Barmer,Unknown,Pollution2
-Barrackpore,Unknown,Pollution2
-Bathinda,Unknown,Pollution2
-Beed,Unknown,Pollution2
-Begusarai,Unknown,Pollution2
+Baddi,Himachal Pradesh,Pollution2
+Badlapur,Maharashtra,Pollution2
+Bagalkot,Karnataka,Pollution2
+Baghpat,Uttar Pradesh,Pollution2
+Bahadurgarh,Haryana,Pollution2
+Balasore,Odisha,Pollution2
+Ballabgarh,Haryana,Pollution2
+Banswara,Rajasthan,Pollution2
+Baran,Rajasthan,Pollution2
+Barbil,Odisha,Pollution2
+Bareilly,Uttar Pradesh,Pollution2
+Baripada,Odisha,Pollution2
+Barmer,Rajasthan,Pollution2
+Barrackpore,West Bengal,Pollution2
+Bathinda,Punjab,Pollution2
+Beed,Maharashtra,Pollution2
+Begusarai,Bihar,Pollution2
 Belagavi,Karnataka,Population
-Belapur,Unknown,Pollution2
+Belapur,Maharashtra,Pollution2
 Bengaluru,Karnataka,Pollution1
-Bettiah,Unknown,Pollution2
+Bettiah,Bihar,Pollution2
 Bhagalpur,Bihar,Pollution2
-Bharatpur,Unknown,Pollution2
-Bhavnagar,Unknown,Pollution2
-Bhilai,Unknown,Pollution2
-Bhilwara,Unknown,Pollution2
-Bhiwadi,Unknown,Pollution2
-Bhiwandi,Unknown,Pollution2
-Bhiwani,Unknown,Pollution2
-Bhopal,Unknown,Pollution1
-Bhubaneshwar,Unknown,Population
+Bharatpur,Rajasthan,Pollution2
+Bhavnagar,Gujarat,Pollution2
+Bhilai,Chhattisgarh,Pollution2
+Bhilwara,Rajasthan,Pollution2
+Bhiwadi,Rajasthan,Pollution2
+Bhiwandi,Maharashtra,Pollution2
+Bhiwani,Haryana,Pollution2
+Bhopal,Madhya Pradesh,Pollution1
+Bhubaneshwar,Odisha,Population
 Bhubaneswar,Odisha,Pollution2
-Bihar Sharif,Unknown,Pollution2
-Bikaner,Unknown,Pollution2
+Bihar Sharif,Bihar,Pollution2
+Bikaner,Rajasthan,Pollution2
 Bilaspur,Chhattisgarh,Pollution2
-Bileipada,Unknown,Pollution2
-Boisar,Unknown,Pollution2
-Brajrajnagar,Unknown,Pollution1
-Bulandshahr,Unknown,Pollution2
-Bundi,Unknown,Pollution2
-Buxar,Unknown,Pollution2
-Byasanagar,Unknown,Pollution2
-Byrnihat,Unknown,Pollution2
-Chamarajanagar,Unknown,Pollution2
+Bileipada,Odisha,Pollution2
+Boisar,Maharashtra,Pollution2
+Brajrajnagar,Odisha,Pollution1
+Bulandshahr,Uttar Pradesh,Pollution2
+Bundi,Rajasthan,Pollution2
+Buxar,Bihar,Pollution2
+Byasanagar,Odisha,Pollution2
+Byrnihat,Meghalaya,Pollution2
+Chamarajanagar,Karnataka,Pollution2
 Chandigarh,Chandigarh,Pollution1
-Chandrapur,Unknown,Pollution2
-Charkhi Dadri,Unknown,Pollution2
+Chandrapur,Maharashtra,Pollution2
+Charkhi Dadri,Haryana,Pollution2
 Chennai,Tamil Nadu,Pollution1
-Chhal,Unknown,Pollution2
-Chhapra,Unknown,Pollution2
-Chikkaballapur,Unknown,Pollution2
-Chikkamagaluru,Unknown,Pollution2
-Chittoor,Unknown,Pollution2
-Chittorgarh,Unknown,Pollution2
-Churu,Unknown,Pollution2
+Chhal,Chhattisgarh,Pollution2
+Chhapra,Bihar,Pollution2
+Chikkaballapur,Karnataka,Pollution2
+Chikkamagaluru,Karnataka,Pollution2
+Chittoor,Andhra Pradesh,Pollution2
+Chittorgarh,Rajasthan,Pollution2
+Churu,Rajasthan,Pollution2
 Coimbatore,Tamil Nadu,Pollution1
 Cuttack,Odisha,Pollution2
-Dahod,Unknown,Population
-Dausa,Unknown,Pollution2
-Davangere,Unknown,Population
+Dahod,Gujarat,Population
+Dausa,Rajasthan,Pollution2
+Davangere,Karnataka,Population
 Dehradun,Uttarakhand,Pollution2
 Delhi,Delhi,Pollution1
-Dewas,Unknown,Pollution2
+Dewas,Madhya Pradesh,Pollution2
 Dhanbad,Jharkhand,Pollution2
-Dharamshala,Unknown,Population
-Dharuhera,Unknown,Pollution2
-Dharwad,Unknown,Pollution2
-Dholpur,Unknown,Pollution2
-Dhule,Unknown,Pollution2
-Dindigul,Unknown,Pollution2
-Dombivli,Unknown,Pollution2
-Dungarpur,Unknown,Pollution2
+Dharamshala,Himachal Pradesh,Population
+Dharuhera,Haryana,Pollution2
+Dharwad,Karnataka,Pollution2
+Dholpur,Rajasthan,Pollution2
+Dhule,Maharashtra,Pollution2
+Dindigul,Tamil Nadu,Pollution2
+Dombivli,Maharashtra,Pollution2
+Dungarpur,Rajasthan,Pollution2
 Durgapur,West Bengal,Pollution2
-Eluru,Unknown,Pollution2
-Ernakulam,Unknown,Pollution1
-Faridabad,Unknown,Pollution2
-Fatehabad,Unknown,Pollution2
-Firozabad,Unknown,Pollution2
-Gadag,Unknown,Pollution2
-Gandhinagar,Unknown,Pollution2
-Gangtok,Unknown,Pollution2
+Eluru,Andhra Pradesh,Pollution2
+Ernakulam,Kerala,Pollution1
+Faridabad,Haryana,Pollution2
+Fatehabad,Haryana,Pollution2
+Firozabad,Uttar Pradesh,Pollution2
+Gadag,Karnataka,Pollution2
+Gandhinagar,Gujarat,Pollution2
+Gangtok,Sikkim,Pollution2
 Gaya,Bihar,Pollution2
 Ghaziabad,Uttar Pradesh,Pollution2
 Gorakhpur,Uttar Pradesh,Pollution2
-Greater Noida,Unknown,Pollution2
-Greater Warangal,Unknown,Population
-Gummidipoondi,Unknown,Pollution2
-Guntur,Unknown,Pollution2
-Gurugram,Unknown,Pollution1
+Greater Noida,Uttar Pradesh,Pollution2
+Greater Warangal,Telangana,Population
+Gummidipoondi,Tamil Nadu,Pollution2
+Guntur,Andhra Pradesh,Pollution2
+Gurugram,Haryana,Pollution1
 Guwahati,Assam,Pollution1
-Gwalior,Unknown,Pollution2
-Hajipur,Unknown,Pollution2
-Haldia,Unknown,Pollution2
-Hanumangarh,Unknown,Pollution2
-Hapur,Unknown,Pollution2
-Hingoli,Unknown,Pollution2
-Hisar,Unknown,Pollution2
-Howrah,Unknown,Pollution2
-Hubballi,Unknown,Pollution2
-Hubli Dharwad,Unknown,Population
+Gwalior,Madhya Pradesh,Pollution2
+Hajipur,Bihar,Pollution2
+Haldia,West Bengal,Pollution2
+Hanumangarh,Rajasthan,Pollution2
+Hapur,Uttar Pradesh,Pollution2
+Hingoli,Maharashtra,Pollution2
+Hisar,Haryana,Pollution2
+Howrah,West Bengal,Pollution2
+Hubballi,Karnataka,Pollution2
+Hubli Dharwad,Karnataka,Population
 Hyderabad,Telangana,Pollution1
 Imphal,Manipur,Population
 Indore,Unknown,Pollution2
@@ -142,7 +142,7 @@ Kadapa,Unknown,Pollution2
 Kaithal,Unknown,Pollution2
 Kakinada,Unknown,Population
 Kalaburagi,Unknown,Pollution2
-Kalyan,Unknown,Pollution2
+Kalyan,Maharashtra,Pollution2
 Kalyandombivali,Unknown,Population
 Kannur,Unknown,Pollution2
 Kanpur,Uttar Pradesh,Pollution2
@@ -202,7 +202,7 @@ Namchi,Unknown,Population
 Nanded,Unknown,Pollution2
 Narnaul,Unknown,Pollution2
 Nashik,Maharashtra,Pollution2
-Navi Mumbai,Unknown,Pollution2
+Navi Mumbai,Maharashtra,Pollution2
 Naya Raipur,Unknown,Population
 Ndmc,Unknown,Population
 Nellore,Unknown,Pollution2
@@ -224,7 +224,7 @@ Pimpri-chinchwad,Unknown,Pollution2
 Pithampur,Unknown,Pollution2
 Port Blair,Unknown,Population
 Pratapgarh,Unknown,Pollution2
-Prayagraj,Unknown,Pollution2
+Prayagraj,Uttar Pradesh,Pollution2
 Puducherry,Unknown,Pollution2
 Puduchery,Unknown,Population
 Pune,Maharashtra,Pollution2
@@ -286,7 +286,7 @@ Tumidih,Unknown,Pollution2
 Tumkur,Unknown,Population
 Udaipur,Rajasthan,Pollution2
 Ujjain,Unknown,Pollution2
-Ulhasnagar,Unknown,Pollution2
+Ulhasnagar,Maharashtra,Pollution2
 Vadodara,Gujarat,Pollution2
 Vapi,Unknown,Pollution2
 Varanasi,Uttar Pradesh,Pollution2
@@ -296,7 +296,7 @@ Vijayapura,Unknown,Pollution2
 Vijayawada,Andhra Pradesh,Pollution2
 Virar,Unknown,Pollution2
 Visakhapatnam,Andhra Pradesh,Pollution1
-Viskhapatnam (vijag),Unknown,Population
+Viskhapatnam (vijag),Andhra Pradesh,Population
 Vrindavan,Unknown,Pollution2
 Yadgir,Unknown,Pollution2
 Yamuna Nagar,Unknown,Pollution2
