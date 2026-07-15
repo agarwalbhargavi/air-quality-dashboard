@@ -1,4 +1,4 @@
-City,Population,Area,Density,Population Category
+city,population,area,density,population_category
 Bhubaneshwar,46000,4,115.4,Small
 Pune,40000,3.6,109.82,Small
 Jaipur,170000,2.4,700.13,Small
@@ -6,11 +6,11 @@ Surat,446780,8.8,509.47,Small
 Kochi,100000,7,142.92,Small
 Ahmedabad,82635,2.4,346.09,Small
 Jabalpur,41059,3,136.55,Small
-Viskhapatnam (vijag),80000,6.7,119.81,Small
+Viskhapatnam (Vijag),80000,6.7,119.81,Small
 Solapur,149831,4.2,356,Small
 Davangere,115702,3.2,364.21,Small
 Indore,120012,3,399.67,Small
-Ndmc,48173,2.2,216.43,Small
+NDMC,48173,2.2,216.43,Small
 Coimbatore,225000,17,132.38,Small
 Kakinada,110577,5.6,198.72,Small
 Belagavi,83361,10.8,77.32,Small
@@ -19,7 +19,7 @@ Guwahati,65011,2.8,230.81,Small
 Chennai,226000,6.9,325.25,Small
 Ludhiana,35000,3.2,109.48,Small
 Bhopal,30496,1.3,226.98,Small
-Port blair,108240,3.4,315.04,Small
+Port Blair,108240,3.4,315.04,Small
 Bhagalpur,98450,2.5,396.86,Small
 Chandigarh,45000,5.1,87.9,Small
 Raipur,60550,3.1,192.56,Small
@@ -28,13 +28,13 @@ Faridabad,37592,2.9,130.28,Small
 Dharamshala,27053,3.1,86.26,Small
 Ranchi,53878,1.4,390.43,Small
 Imphal,75717,2.2,345.84,Small
-Greater warangal,39000,6.4,60.88,Small
+Greater Warangal,39000,6.4,60.88,Small
 Agartala,185000,11.3,163.27,Small
 Lucknow,70000,3.3,212.76,Small
-New town kolkata,11107,3.9,28.59,Small
+New Town Kolkata,11107,3.9,28.59,Small
 Amritsar,361000,3.8,939,Small
 Jalandhar,58120,4.1,142.2,Small
-Kalyandombivali,264779,11.8,225.3,Small
+KalyanDombivali,264779,11.8,225.3,Small
 Ujjain,87776,4.1,212.02,Small
 Tirupati,112000,3,370.99,Small
 Nagpur,63000,3.8,163.7,Small
@@ -56,12 +56,12 @@ Shivamogga,83000,6.1,136.73,Small
 Salem,71295,2.5,288.81,Small
 Varanasi,400000,5.6,711.61,Small
 Kohima,26741,1.2,231.85,Small
-Hubli dharwad,117000,4,291.44,Small
+Hubli Dharwad,117000,4,291.44,Small
 Aurangabad,28777,0.9,305.19,Small
 Vadodara,103278,7.1,145.58,Small
 Tiruvanantapuram,53225,5.7,93.87,Small
 Rajkot,134258,3.8,357.07,Small
-Naya raipur,2919,5.3,5.55,Small
+Naya Raipur,2919,5.3,5.55,Small
 Amaravati,23072,4.2,55.35,Small
 Patna,38804,3.3,117.34,Small
 Karimnagar,58689,9.7,60.63,Small
@@ -76,7 +76,7 @@ Bengaluru,524000,21.8,240.7,Small
 Shimla,18753,1,190,Small
 Dehradun,62000,3.5,175.14,Small
 Tirupppur,206511,11.3,182.43,Small
-Pimpri- chinchwad,98828,5.5,178.39,Small
+Pimpri- Chinchwad,98828,5.5,178.39,Small
 Bilaspur,84111,4.2,199.79,Small
 Pasighat,15565,3.9,40.01,Small
 Jammu,57000,3.4,167.16,Small
@@ -89,5 +89,3 @@ Aizawl,55649,3,184.88,Small
 Allahabad,150000,7.7,194.55,Small
 Aligarh,122230,5,244.46,Small
 Gangtok,29099,1.5,196.61,Small
-Total,9926315,445.5,NaN,Large
-Average,110292,4.95,237.63,Small

@@ -2,79 +2,98 @@ const fs = require("fs");
 const csv = require("csv-parser");
 const { createObjectCsvWriter } = require("csv-writer");
 
+const inputFile = "./raw_data/population.csv";
+const outputDir = "./cleaned_data";
+const outputFile = "./cleaned_data/population_clean.csv";
 
-
-if (!fs.existsSync("./cleaned_data")) {
-    fs.mkdirSync("./cleaned_data");
+if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir);
 }
 
-const cleanedRows = [];
+const rows = [];
+const duplicateChecker = new Set();
 
-let totalRows = 0;
-let droppedRows = 0;
+function cleanValue(value) {
 
-fs.createReadStream("./raw_data/population.csv")
-    .pipe(csv())
-    .on("data", (row) => {
+    if (value === undefined || value === null)
+        return "";
 
-        totalRows++;
+    value = String(value).trim();
 
-        let city = row.City?.trim();
+    if (
+        value === "" ||
+        value.toLowerCase() === "na" ||
+        value.toLowerCase() === "null" ||
+        value.toLowerCase() === "undefined"
+    ) {
+        return "";
+    }
 
-        if (!city) {
-            droppedRows++;
-            return;
-        }
+    return value;
+}
 
-        city =
-            city.charAt(0).toUpperCase() +
-            city.slice(1).toLowerCase();
+fs.createReadStream(inputFile)
 
-        const area = Number(row["ABD Area (sq. km)"]);
-        const population = Number(row["ABD Population"]);
-        const density = Number(row["ABD Population Density"]);
+.pipe(csv())
 
-        if (population <= 0) {
-            droppedRows++;
-            return;
-        }
+.on("data", (row) => {
 
-        cleanedRows.push({
-            city,
-            area,
-            population,
-            density
-        });
+    const city = cleanValue(row.City);
 
-    })
-    .on("end", async () => {
+    // Ignore unwanted rows
+    if (
+        city === "" ||
+        city.toLowerCase() === "total" ||
+        city.toLowerCase() === "average"
+    ) {
+        return;
+    }
 
-        const csvWriter = createObjectCsvWriter({
+   const cleanedRow = {
 
-            path: "./cleaned_data/population_clean.csv",
+    City: city,
 
-            header: [
+    Population: cleanValue(row["ABD Population"]),
 
-                { id: "city", title: "City" },
+    Area: cleanValue(row["ABD Area (sq. km)"]),
 
-                { id: "area", title: "Area" },
+    Density: cleanValue(row["ABD Population Density"])
 
-                { id: "population", title: "Population" },
+};
 
-                { id: "density", title: "Density" }
+    const key = JSON.stringify(cleanedRow);
 
-            ]
+    if (!duplicateChecker.has(key)) {
 
-        });
+        duplicateChecker.add(key);
+        rows.push(cleanedRow);
 
-        await csvWriter.writeRecords(cleanedRows);
+    }
 
-        console.log("Population Cleaning Complete");
+})
 
-        console.log("Total Rows :", totalRows);
+.on("end", async () => {
 
-        console.log("Clean Rows :", cleanedRows.length);
+    const writer = createObjectCsvWriter({
 
-        console.log("Dropped :", droppedRows);
+        path: outputFile,
+
+        header: [
+
+            { id: "City", title: "City" },
+            { id: "Population", title: "Population" },
+            { id: "Area", title: "Area" },
+            { id: "Density", title: "Density" }
+
+        ]
 
     });
+
+    await writer.writeRecords(rows);
+
+    console.log("--------------------------------");
+    console.log("Population Cleaning Completed");
+    console.log("Rows Written :", rows.length);
+    console.log("Output :", outputFile);
+
+});

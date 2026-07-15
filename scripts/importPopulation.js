@@ -5,6 +5,7 @@ const csv = require("csv-parser");
 const { Pool } = require("pg");
 
 const pool = new Pool({
+
     host: process.env.DB_HOST,
     port: process.env.DB_PORT,
     database: process.env.DB_NAME,
@@ -13,107 +14,129 @@ const pool = new Pool({
     ssl: {
         rejectUnauthorized: false
     }
+
 });
 
 const rows = [];
 
 fs.createReadStream("./transformed_data/population_transformed.csv")
-    .pipe(csv())
 
-    .on("data", (row) => {
-        rows.push(row);
-    })
+.pipe(csv())
 
-    .on("end", async () => {
+.on("data", (row) => {
 
-        console.log(`Importing ${rows.length} population records...`);
+    rows.push(row);
 
-        let imported = 0;
-        let skipped = 0;
+})
 
-        try {
+.on("end", async () => {
 
-            for (const row of rows) {
+    console.log(`Importing ${rows.length} population records...`);
 
-                const city = row.City?.trim();
-                const population = Number(row.Population);
+    let imported = 0;
+    let skipped = 0;
+    let cityNotFound = 0;
 
-                if (!city) {
-                    skipped++;
-                    continue;
-                }
+    try {
 
-                const cityResult = await pool.query(
-                    `
-                    SELECT city_id
-                    FROM city_master
-                    WHERE LOWER(city)=LOWER($1)
-                    `,
-                    [city]
-                );
+        for (const row of rows) {
 
-                if (cityResult.rows.length === 0) {
+            const cityName = (row.city || "").trim();
 
-                    console.log(`City not found : ${city}`);
+            if (!cityName)
+                continue;
 
-                    skipped++;
+            let cityResult = await pool.query(
+`
+SELECT city_id
+FROM city_master
+WHERE LOWER(city)=LOWER($1)
+`,
+[cityName]
+);
 
-                    continue;
+if(cityResult.rows.length===0){
 
-                }
+    cityResult = await pool.query(
+    `
+    SELECT city_id
+    FROM city_anomaly
+    WHERE LOWER(city_alias)=LOWER($1)
+    `,
+    [cityName]
+    );
 
-                const city_id = cityResult.rows[0].city_id;
+}
 
-                await pool.query(
-                    `
-                    INSERT INTO population
-                    (
-                        city_id,
-                        population
-                    )
-                    VALUES
-                    (
-                        $1,
-                        $2
-                    )
-                    ON CONFLICT (city_id)
-                    DO UPDATE
-                    SET population = EXCLUDED.population
-                    `,
-                    [
-                        city_id,
-                        population
-                    ]
-                );
+            
 
-                imported++;
+            if (cityResult.rows.length === 0) {
+
+                console.log("City not found :", cityName);
+
+                cityNotFound++;
+
+                continue;
 
             }
 
-            console.log("--------------------------------");
-            console.log("Population Imported Successfully!");
-            console.log("Imported :", imported);
-            console.log("Skipped :", skipped);
+            const city_id = cityResult.rows[0].city_id;
+
+            const result = await pool.query(
+
+                `
+                INSERT INTO population
+                (
+                    city_id,
+                    population,
+                    area,
+                    density,
+                    population_category
+                )
+                VALUES
+                (
+                    $1,$2,$3,$4,$5
+                )
+                ON CONFLICT(city_id)
+                DO NOTHING
+                `,
+                [
+
+                    city_id,
+                    Number(row.population),
+                    Number(row.area),
+                    Number(row.density),
+                    row.population_category
+
+                ]
+
+            );
+
+            if (result.rowCount === 1)
+                imported++;
+            else
+                skipped++;
 
         }
 
-        catch (err) {
+        console.log("--------------------------------");
+        console.log("Population Imported Successfully!");
+        console.log("Imported :", imported);
+        console.log("Skipped :", skipped);
+        console.log("City Not Found :", cityNotFound);
 
-            console.error("Import Failed");
-            console.error(err);
+    }
 
-        }
-
-        finally {
-
-            await pool.end();
-
-        }
-
-    })
-
-    .on("error", (err) => {
+    catch (err) {
 
         console.error(err);
 
-    });
+    }
+
+    finally {
+
+        await pool.end();
+
+    }
+
+});

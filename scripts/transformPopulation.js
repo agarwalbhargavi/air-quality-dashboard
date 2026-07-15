@@ -52,13 +52,17 @@ fs.createReadStream("./cleaned_data/population_clean.csv")
 
         header:[
 
-            {id:"city",title:"City"},
-            {id:"population",title:"Population"},
-            {id:"area",title:"Area"},
-            {id:"density",title:"Density"},
-            {id:"population_category",title:"Population Category"}
+    {id:"city",title:"city"},
 
-        ]
+    {id:"population",title:"population"},
+
+    {id:"area",title:"area"},
+
+    {id:"density",title:"density"},
+
+    {id:"population_category",title:"population_category"}
+
+]
 
     });
 
