@@ -1,6 +1,6 @@
 const fs = require("fs");
 const path = require("path");
-
+const archiveFile = require("./archiveFile");
 const config = require("../config/schemaConfig.json");
 const importPollution = require("./importPollution");
 const validateSchema = require("./validateSchema");
@@ -92,6 +92,7 @@ await importPollution(transformedFile);
                 }
 
                 console.log("----------------------------------------");
+                await archiveFile(fullPath, source.agency);
                 console.log("File Processed Successfully");
                 console.log("Clean File      :", cleanedFile);
                 console.log("Transformed File:", transformedFile);
