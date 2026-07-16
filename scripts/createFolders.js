@@ -6,16 +6,18 @@ const config = require("../config/schemaConfig.json");
 
 function createFolders() {
 
-    // Create Drop Folder
+    // Create main runtime folders
+
     fs.mkdirSync(process.env.DROP_FOLDER, { recursive: true });
 
-    // Create Archive Folder
     fs.mkdirSync(process.env.ARCHIVE_FOLDER, { recursive: true });
 
-    // Create Log Folder
+    fs.mkdirSync(process.env.REJECTED_FOLDER, { recursive: true });
+
     fs.mkdirSync(process.env.LOG_FOLDER, { recursive: true });
 
-    // Create Agency folders
+    // Create agency-wise folders
+
     for (const source of config.sources) {
 
         const dropAgencyFolder = path.join(
@@ -28,9 +30,16 @@ function createFolders() {
             source.folder
         );
 
+        const rejectedAgencyFolder = path.join(
+            process.env.REJECTED_FOLDER,
+            source.folder
+        );
+
         fs.mkdirSync(dropAgencyFolder, { recursive: true });
 
         fs.mkdirSync(archiveAgencyFolder, { recursive: true });
+
+        fs.mkdirSync(rejectedAgencyFolder, { recursive: true });
 
     }
 

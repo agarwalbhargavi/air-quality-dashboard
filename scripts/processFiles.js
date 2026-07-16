@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 require("dotenv").config();
+const rejectFile = require("./rejectFile");
 const createFolders = require("./createFolders");
 const config = require("../config/schemaConfig.json");
 
@@ -118,7 +119,7 @@ async function processFiles() {
                 logger.error("----------------------------------------");
                 logger.error("Processing Failed");
                 logger.error(err.message);
-
+                await rejectFile(fullPath, source.folder);
             }
 
         }

@@ -1,0 +1,95 @@
+[7/16/2026, 12:45:14 PM] [INFO] ========================================
+[7/16/2026, 12:45:14 PM] [INFO] Starting ETL Process...
+[7/16/2026, 12:45:14 PM] [INFO] ========================================
+[7/16/2026, 12:45:14 PM] [INFO] ========================================
+[7/16/2026, 12:45:14 PM] [INFO] Agency : AgencyA
+[7/16/2026, 12:45:14 PM] [INFO] Schema : SchemaA
+[7/16/2026, 12:45:14 PM] [INFO] Folder : /Users/bhargaviagarwal/Desktop/drop_folder/agencyA
+[7/16/2026, 12:45:14 PM] [INFO] ----------------------------------------
+[7/16/2026, 12:45:14 PM] [INFO] Processing File : /Users/bhargaviagarwal/Desktop/drop_folder/agencyA/apollution.csv
+[7/16/2026, 12:45:14 PM] [INFO] --------------------------------
+[7/16/2026, 12:45:14 PM] [INFO] Validating Schema : SchemaA
+[7/16/2026, 12:45:14 PM] [INFO] File : /Users/bhargaviagarwal/Desktop/drop_folder/agencyA/apollution.csv
+[7/16/2026, 12:45:14 PM] [ERROR] Schema Validation Failed
+[7/16/2026, 12:45:14 PM] [ERROR] Missing Columns : City, Date, PM2.5, PM10, NO, NO2, NOx, NH3, CO, SO2, O3, Benzene, Toluene, Xylene, AQI, AQI_Bucket
+[7/16/2026, 12:45:14 PM] [ERROR] ----------------------------------------
+[7/16/2026, 12:45:14 PM] [ERROR] Processing Failed
+[7/16/2026, 12:45:14 PM] [ERROR] Missing Columns : City, Date, PM2.5, PM10, NO, NO2, NOx, NH3, CO, SO2, O3, Benzene, Toluene, Xylene, AQI, AQI_Bucket
+[7/16/2026, 12:45:14 PM] [INFO] ----------------------------------------
+[7/16/2026, 12:45:14 PM] [INFO] Processing File : /Users/bhargaviagarwal/Desktop/drop_folder/agencyA/pollution.csv
+[7/16/2026, 12:45:14 PM] [INFO] --------------------------------
+[7/16/2026, 12:45:14 PM] [INFO] Validating Schema : SchemaA
+[7/16/2026, 12:45:14 PM] [INFO] File : /Users/bhargaviagarwal/Desktop/drop_folder/agencyA/pollution.csv
+[7/16/2026, 12:45:14 PM] [INFO] Schema Validation Passed
+[7/16/2026, 12:45:14 PM] [WARNING] Importing 29531 records...
+[7/16/2026, 3:56:07 PM] [INFO] Duplicates :
+[7/16/2026, 3:56:07 PM] [WARNING] City Not Found :
+[7/16/2026, 3:56:07 PM] [INFO] File Archived Successfully
+[7/16/2026, 3:56:07 PM] [INFO] Archived To : /Users/bhargaviagarwal/Desktop/archive_folder/AgencyA/20260716_155607_pollution.csv
+[7/16/2026, 3:56:07 PM] [INFO] ----------------------------------------
+[7/16/2026, 3:56:07 PM] [INFO] File Processed Successfully
+[7/16/2026, 3:56:07 PM] [INFO] Clean File : cleaned_data/agencyA_pollution_clean.csv
+[7/16/2026, 3:56:07 PM] [INFO] Transformed File : transformed_data/cleaned_data_agencyA_pollution_transformed.csv
+[7/16/2026, 3:56:07 PM] [INFO] ========================================
+[7/16/2026, 3:56:07 PM] [INFO] Agency : AgencyB
+[7/16/2026, 3:56:07 PM] [INFO] Schema : SchemaB
+[7/16/2026, 3:56:07 PM] [INFO] Folder : /Users/bhargaviagarwal/Desktop/drop_folder/agencyB
+[7/16/2026, 3:56:07 PM] [INFO] ----------------------------------------
+[7/16/2026, 3:56:07 PM] [INFO] Processing File : /Users/bhargaviagarwal/Desktop/drop_folder/agencyB/pollution1.csv
+[7/16/2026, 3:56:07 PM] [INFO] --------------------------------
+[7/16/2026, 3:56:07 PM] [INFO] Validating Schema : SchemaB
+[7/16/2026, 3:56:07 PM] [INFO] File : /Users/bhargaviagarwal/Desktop/drop_folder/agencyB/pollution1.csv
+[7/16/2026, 3:56:07 PM] [INFO] Schema Validation Passed
+[7/16/2026, 3:56:07 PM] [WARNING] Importing 499 records...
+[7/16/2026, 3:56:22 PM] [WARNING] City Not Found : Byrnihat
+[7/16/2026, 3:57:05 PM] [WARNING] City Not Found : Mandikhera
+[7/16/2026, 3:57:21 PM] [WARNING] City Not Found : Chamarajanagar
+[7/16/2026, 3:57:22 PM] [WARNING] City Not Found : Ramanagara
+[7/16/2026, 3:57:33 PM] [WARNING] City Not Found : Pimpri-Chinchwad
+[7/16/2026, 3:57:34 PM] [WARNING] City Not Found : Pimpri-Chinchwad
+[7/16/2026, 3:57:34 PM] [WARNING] City Not Found : Pimpri-Chinchwad
+[7/16/2026, 3:57:34 PM] [WARNING] City Not Found : Pimpri-Chinchwad
+[7/16/2026, 3:57:35 PM] [WARNING] City Not Found : Pimpri-Chinchwad
+[7/16/2026, 3:57:35 PM] [WARNING] City Not Found : Pimpri-Chinchwad
+[7/16/2026, 3:57:53 PM] [WARNING] City Not Found : Rourkela
+[7/16/2026, 3:57:53 PM] [WARNING] City Not Found : Rourkela
+[7/16/2026, 3:58:10 PM] [WARNING] City Not Found : Byrnihat
+[7/16/2026, 3:58:43 PM] [WARNING] City Not Found : Barrackpore
+[7/16/2026, 3:59:10 PM] [WARNING] City Not Found : Mira-Bhayandar
+[7/16/2026, 3:59:12 PM] [WARNING] City Not Found : Rourkela
+[7/16/2026, 3:59:28 PM] [INFO] Duplicates :
+[7/16/2026, 3:59:28 PM] [WARNING] City Not Found :
+[7/16/2026, 3:59:28 PM] [INFO] File Archived Successfully
+[7/16/2026, 3:59:28 PM] [INFO] Archived To : /Users/bhargaviagarwal/Desktop/archive_folder/AgencyB/20260716_155928_pollution1.csv
+[7/16/2026, 3:59:28 PM] [INFO] ----------------------------------------
+[7/16/2026, 3:59:28 PM] [INFO] File Processed Successfully
+[7/16/2026, 3:59:28 PM] [INFO] Clean File : cleaned_data/agencyB_pollution1_clean.csv
+[7/16/2026, 3:59:28 PM] [INFO] Transformed File : transformed_data/cleaned_data_agencyB_pollution1_transformed.csv
+[7/16/2026, 3:59:28 PM] [INFO] ========================================
+[7/16/2026, 3:59:28 PM] [INFO] ETL Process Completed
+[7/16/2026, 3:59:28 PM] [INFO] ========================================
+[7/16/2026, 4:41:43 PM] [INFO] ========================================
+[7/16/2026, 4:41:43 PM] [INFO] Starting ETL Process...
+[7/16/2026, 4:41:43 PM] [INFO] ========================================
+[7/16/2026, 4:41:43 PM] [INFO] ========================================
+[7/16/2026, 4:41:43 PM] [INFO] Agency : AgencyA
+[7/16/2026, 4:41:43 PM] [INFO] Schema : SchemaA
+[7/16/2026, 4:41:43 PM] [INFO] Folder : /Users/bhargaviagarwal/Desktop/drop_folder/agencyA
+[7/16/2026, 4:41:43 PM] [INFO] ----------------------------------------
+[7/16/2026, 4:41:43 PM] [INFO] Processing File : /Users/bhargaviagarwal/Desktop/drop_folder/agencyA/apollution.csv
+[7/16/2026, 4:41:43 PM] [INFO] --------------------------------
+[7/16/2026, 4:41:43 PM] [INFO] Validating Schema : SchemaA
+[7/16/2026, 4:41:43 PM] [INFO] File : /Users/bhargaviagarwal/Desktop/drop_folder/agencyA/apollution.csv
+[7/16/2026, 4:41:43 PM] [ERROR] Schema Validation Failed
+[7/16/2026, 4:41:43 PM] [ERROR] Missing Columns : City, Date, PM2.5, PM10, NO, NO2, NOx, NH3, CO, SO2, O3, Benzene, Toluene, Xylene, AQI, AQI_Bucket
+[7/16/2026, 4:41:43 PM] [ERROR] ----------------------------------------
+[7/16/2026, 4:41:43 PM] [ERROR] Processing Failed
+[7/16/2026, 4:41:43 PM] [ERROR] Missing Columns : City, Date, PM2.5, PM10, NO, NO2, NOx, NH3, CO, SO2, O3, Benzene, Toluene, Xylene, AQI, AQI_Bucket
+[7/16/2026, 4:41:43 PM] [INFO] ========================================
+[7/16/2026, 4:41:43 PM] [INFO] Agency : AgencyB
+[7/16/2026, 4:41:43 PM] [INFO] Schema : SchemaB
+[7/16/2026, 4:41:43 PM] [INFO] Folder : /Users/bhargaviagarwal/Desktop/drop_folder/agencyB
+[7/16/2026, 4:41:43 PM] [INFO] No files found.
+[7/16/2026, 4:41:43 PM] [INFO] ========================================
+[7/16/2026, 4:41:43 PM] [INFO] ETL Process Completed
+[7/16/2026, 4:41:43 PM] [INFO] ========================================
