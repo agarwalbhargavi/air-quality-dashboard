@@ -1,62 +1,81 @@
 const fs = require("fs");
 const csv = require("csv-parser");
+const schemaDefinition = require("../config/schemaDefinition");
+const logger = require("./logger");
 
-const schemaDefinition =
-require("../config/schemaDefinition");
+async function validateSchema(inputFile, schemaName) {
 
-async function validateSchema(filePath,schema){
+    return new Promise((resolve, reject) => {
 
-    return new Promise((resolve,reject)=>{
+        const expectedColumns = schemaDefinition[schemaName];
 
-        const expectedColumns =
-        schemaDefinition[schema];
+        if (!expectedColumns) {
 
-        let validated=false;
+            logger.error(`Schema '${schemaName}' not found.`);
 
-        fs.createReadStream(filePath)
+            return reject(new Error(`Schema '${schemaName}' not found.`));
 
-        .pipe(csv())
+        }
 
-        .on("headers",(headers)=>{
+        let checked = false;
 
-            validated=true;
+        fs.createReadStream(inputFile)
 
-            const missingColumns = expectedColumns.filter(
+            .pipe(csv())
 
-                col=>!headers.includes(col)
+            .on("headers", (headers) => {
 
-            );
+                checked = true;
 
-            if(missingColumns.length>0){
+                logger.info(`Validating Schema : ${schemaName}`);
+                logger.info(`File : ${inputFile}`);
 
-                reject(
-
-                    new Error(
-
-                        `Missing Columns : ${missingColumns.join(", ")}`
-
-                    )
-
+                const missingColumns = expectedColumns.filter(
+                    column => !headers.includes(column)
                 );
 
-            }
+                if (missingColumns.length > 0) {
 
-            else{
+                    logger.error(
+                        `Schema Validation Failed. Missing Columns : ${missingColumns.join(", ")}`
+                    );
+
+                    reject(
+                        new Error(
+                            `Missing Columns : ${missingColumns.join(", ")}`
+                        )
+                    );
+
+                    return;
+
+                }
+
+                logger.info("Schema Validation Passed");
 
                 resolve(true);
 
-            }
+            })
 
-        })
+            .on("end", () => {
 
-        .on("error",(err)=>{
+                if (!checked) {
 
-            reject(err);
+                    logger.warning("Empty CSV File");
 
-        });
+                }
+
+            })
+
+            .on("error", (err) => {
+
+                logger.error(err.message);
+
+                reject(err);
+
+            });
 
     });
 
 }
 
-module.exports=validateSchema;
+module.exports = validateSchema;

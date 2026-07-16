@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const archiveFile = require("./archiveFile");
+const logger = require("./logger");
 const config = require("../config/schemaConfig.json");
 const importPollution = require("./importPollution");
 const validateSchema = require("./validateSchema");
@@ -26,7 +27,7 @@ async function processFiles() {
 
         if (!fs.existsSync(source.inputFolder)) {
 
-            console.log("Folder does not exist.");
+            logger.info("Folder does not exist.");
             continue;
 
         }
@@ -35,7 +36,7 @@ async function processFiles() {
 
         if (files.length === 0) {
 
-            console.log("No files found.");
+            logger.info("No files found.");
             continue;
 
         }
@@ -86,7 +87,7 @@ await importPollution(transformedFile);
 
                     default:
 
-                        console.log("Unsupported Schema :", source.schema);
+                        logger.info("Unsupported Schema :", source.schema);
                         continue;
 
                 }
@@ -102,8 +103,8 @@ await importPollution(transformedFile);
             catch (err) {
 
                 console.log("----------------------------------------");
-                console.log("Processing Failed");
-                console.error(err.message);
+                logger.info("Processing Failed");
+                logger.error(err.message);
 
             }
 

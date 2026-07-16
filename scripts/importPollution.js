@@ -1,5 +1,5 @@
 require("dotenv").config();
-
+const logger = require("./logger");
 const fs = require("fs");
 const csv = require("csv-parser");
 const { Pool } = require("pg");
@@ -30,7 +30,7 @@ async function importPollution(inputFile) {
             .on("end", async () => {
 
                 console.log("--------------------------------");
-                console.log(`Importing ${rows.length} records...`);
+                logger.warning(`Importing ${rows.length} records...`);
 
                 let imported = 0;
                 let skipped = 0;
@@ -69,7 +69,7 @@ async function importPollution(inputFile) {
                         // Still not found
                         if (cityResult.rows.length === 0) {
 
-                            console.log(`City Not Found : ${cityName}`);
+                            logger.warning(`City Not Found : ${cityName}`);
                             cityNotFound++;
                             continue;
 
@@ -159,8 +159,8 @@ async function importPollution(inputFile) {
                     console.log("--------------------------------");
                     console.log("Pollution Import Completed!");
                     console.log("Inserted :", imported);
-                    console.log("Duplicates :", skipped);
-                    console.log("City Not Found :", cityNotFound);
+                    logger.info("Duplicates :", skipped);
+                    logger.warning("City Not Found :", cityNotFound);
 
                     resolve({
                         imported,
