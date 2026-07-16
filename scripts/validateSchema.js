@@ -1,5 +1,6 @@
 const fs = require("fs");
 const csv = require("csv-parser");
+
 const schemaDefinition = require("../config/schemaDefinition");
 const logger = require("./logger");
 
@@ -13,11 +14,13 @@ async function validateSchema(inputFile, schemaName) {
 
             logger.error(`Schema '${schemaName}' not found.`);
 
-            return reject(new Error(`Schema '${schemaName}' not found.`));
+            return reject(
+                new Error(`Schema '${schemaName}' not found.`)
+            );
 
         }
 
-        let checked = false;
+        let schemaChecked = false;
 
         fs.createReadStream(inputFile)
 
@@ -25,8 +28,9 @@ async function validateSchema(inputFile, schemaName) {
 
             .on("headers", (headers) => {
 
-                checked = true;
+                schemaChecked = true;
 
+                logger.info("--------------------------------");
                 logger.info(`Validating Schema : ${schemaName}`);
                 logger.info(`File : ${inputFile}`);
 
@@ -37,16 +41,18 @@ async function validateSchema(inputFile, schemaName) {
                 if (missingColumns.length > 0) {
 
                     logger.error(
-                        `Schema Validation Failed. Missing Columns : ${missingColumns.join(", ")}`
+                        `Schema Validation Failed`
                     );
 
-                    reject(
+                    logger.error(
+                        `Missing Columns : ${missingColumns.join(", ")}`
+                    );
+
+                    return reject(
                         new Error(
                             `Missing Columns : ${missingColumns.join(", ")}`
                         )
                     );
-
-                    return;
 
                 }
 
@@ -58,9 +64,9 @@ async function validateSchema(inputFile, schemaName) {
 
             .on("end", () => {
 
-                if (!checked) {
+                if (!schemaChecked) {
 
-                    logger.warning("Empty CSV File");
+                    logger.warning("CSV File is Empty");
 
                 }
 

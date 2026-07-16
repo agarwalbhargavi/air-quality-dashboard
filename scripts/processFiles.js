@@ -1,10 +1,14 @@
 const fs = require("fs");
 const path = require("path");
-const archiveFile = require("./archiveFile");
-const logger = require("./logger");
+require("dotenv").config();
+const createFolders = require("./createFolders");
 const config = require("../config/schemaConfig.json");
-const importPollution = require("./importPollution");
+
+const logger = require("./logger");
+const archiveFile = require("./archiveFile");
+
 const validateSchema = require("./validateSchema");
+const importPollution = require("./importPollution");
 
 const cleanSchemaA = require("./cleanSchemaA");
 const cleanSchemaB = require("./cleanSchemaB");
@@ -14,47 +18,54 @@ const transformSchemaB = require("./transformSchemaB");
 
 async function processFiles() {
 
-    console.log("========================================");
-    console.log("Starting ETL Process...");
-    console.log("========================================");
+    createFolders();
+
+    logger.info("========================================");
+    logger.info("Starting ETL Process...");
+    logger.info("========================================");
 
     for (const source of config.sources) {
 
-        console.log("\n========================================");
-        console.log("Agency :", source.agency);
-        console.log("Schema :", source.schema);
-        console.log("Folder :", source.inputFolder);
+        const inputFolder = path.join(
+            process.env.DROP_FOLDER,
+            source.folder
+        );
 
-        if (!fs.existsSync(source.inputFolder)) {
+        logger.info("========================================");
+        logger.info(`Agency : ${source.agency}`);
+        logger.info(`Schema : ${source.schema}`);
+        logger.info(`Folder : ${inputFolder}`);
 
-            logger.info("Folder does not exist.");
+        if (!fs.existsSync(inputFolder)) {
+
+            logger.warning("Folder does not exist.");
+
             continue;
 
         }
 
-        const files = fs.readdirSync(source.inputFolder);
+        const files = fs.readdirSync(inputFolder);
 
         if (files.length === 0) {
 
             logger.info("No files found.");
+
             continue;
 
         }
 
         for (const file of files) {
 
-            const fullPath = path.join(source.inputFolder, file);
+            const fullPath = path.join(inputFolder, file);
 
-            console.log("\n----------------------------------------");
-            console.log("Processing File :", fullPath);
+            logger.info("----------------------------------------");
+            logger.info(`Processing File : ${fullPath}`);
 
             try {
 
-                // STEP 1 : Validate Schema
+                // STEP 1 : Schema Validation
 
                 await validateSchema(fullPath, source.schema);
-
-                console.log("Schema Validation Passed");
 
                 let cleanedFile;
                 let transformedFile;
@@ -63,47 +74,49 @@ async function processFiles() {
 
                     case "SchemaA":
 
-                        // STEP 2 : Cleaning
+                        cleanedFile = await cleanSchemaA(fullPath);
 
-                       cleanedFile = await cleanSchemaA(fullPath);
+                        transformedFile = await transformSchemaA(cleanedFile);
 
-transformedFile = await transformSchemaA(cleanedFile);
-
-await importPollution(transformedFile);
+                        await importPollution(transformedFile);
 
                         break;
 
                     case "SchemaB":
 
-                        // STEP 2 : Cleaning
-
                         cleanedFile = await cleanSchemaB(fullPath);
 
-                        // STEP 3 : Transformation
-
                         transformedFile = await transformSchemaB(cleanedFile);
+
                         await importPollution(transformedFile);
+
                         break;
 
                     default:
 
-                        logger.info("Unsupported Schema :", source.schema);
+                        logger.warning(
+                            `Unsupported Schema : ${source.schema}`
+                        );
+
                         continue;
 
                 }
 
-                console.log("----------------------------------------");
+                // STEP 5 : Archive Processed File
+
                 await archiveFile(fullPath, source.agency);
-                console.log("File Processed Successfully");
-                console.log("Clean File      :", cleanedFile);
-                console.log("Transformed File:", transformedFile);
+
+                logger.info("----------------------------------------");
+                logger.info("File Processed Successfully");
+                logger.info(`Clean File : ${cleanedFile}`);
+                logger.info(`Transformed File : ${transformedFile}`);
 
             }
 
             catch (err) {
 
-                console.log("----------------------------------------");
-                logger.info("Processing Failed");
+                logger.error("----------------------------------------");
+                logger.error("Processing Failed");
                 logger.error(err.message);
 
             }
@@ -112,9 +125,9 @@ await importPollution(transformedFile);
 
     }
 
-    console.log("\n========================================");
-    console.log("ETL Process Completed");
-    console.log("========================================");
+    logger.info("========================================");
+    logger.info("ETL Process Completed");
+    logger.info("========================================");
 
 }
 

@@ -3,13 +3,13 @@
     {
       "agency": "AgencyA",
       "schema": "SchemaA",
-      "inputFolder": "./drop/agencyA",
+      "folder": "agencyA",
       "transformScript": "transformSchemaA"
     },
     {
       "agency": "AgencyB",
       "schema": "SchemaB",
-      "inputFolder": "./drop/agencyB",
+      "folder": "agencyB",
       "transformScript": "transformSchemaB"
     }
   ]

@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const logger = require("./logger");
+require("dotenv").config();
 
 async function archiveFile(filePath, agency) {
 
@@ -8,7 +9,7 @@ async function archiveFile(filePath, agency) {
 
         try {
 
-            const archiveFolder = path.join("./archive", agency);
+            const archiveFolder = path.join(process.env.ARCHIVE_FOLDER, agency);
 
             // Automatically creates archive/agencyA, archive/agencyB etc.
             fs.mkdirSync(archiveFolder, { recursive: true });
