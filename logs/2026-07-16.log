@@ -93,3 +93,29 @@
 [7/16/2026, 4:41:43 PM] [INFO] ========================================
 [7/16/2026, 4:41:43 PM] [INFO] ETL Process Completed
 [7/16/2026, 4:41:43 PM] [INFO] ========================================
+[7/16/2026, 4:54:19 PM] [INFO] ========================================
+[7/16/2026, 4:54:19 PM] [INFO] Starting ETL Process...
+[7/16/2026, 4:54:19 PM] [INFO] ========================================
+[7/16/2026, 4:54:19 PM] [INFO] ========================================
+[7/16/2026, 4:54:19 PM] [INFO] Agency : AgencyA
+[7/16/2026, 4:54:19 PM] [INFO] Schema : SchemaA
+[7/16/2026, 4:54:19 PM] [INFO] Folder : /Users/bhargaviagarwal/Desktop/drop_folder/agencyA
+[7/16/2026, 4:54:19 PM] [INFO] ----------------------------------------
+[7/16/2026, 4:54:19 PM] [INFO] Processing File : /Users/bhargaviagarwal/Desktop/drop_folder/agencyA/apollution.csv
+[7/16/2026, 4:54:19 PM] [INFO] --------------------------------
+[7/16/2026, 4:54:19 PM] [INFO] Validating Schema : SchemaA
+[7/16/2026, 4:54:19 PM] [INFO] File : /Users/bhargaviagarwal/Desktop/drop_folder/agencyA/apollution.csv
+[7/16/2026, 4:54:19 PM] [ERROR] Schema Validation Failed
+[7/16/2026, 4:54:19 PM] [ERROR] Missing Columns : City, Date, PM2.5, PM10, NO, NO2, NOx, NH3, CO, SO2, O3, Benzene, Toluene, Xylene, AQI, AQI_Bucket
+[7/16/2026, 4:54:19 PM] [ERROR] ----------------------------------------
+[7/16/2026, 4:54:19 PM] [ERROR] Processing Failed
+[7/16/2026, 4:54:19 PM] [ERROR] Missing Columns : City, Date, PM2.5, PM10, NO, NO2, NOx, NH3, CO, SO2, O3, Benzene, Toluene, Xylene, AQI, AQI_Bucket
+[7/16/2026, 4:54:19 PM] [ERROR] File moved to rejected folder : /Users/bhargaviagarwal/Desktop/rejected_folder/agencyA/20260716_165419_apollution.csv
+[7/16/2026, 4:54:19 PM] [INFO] ========================================
+[7/16/2026, 4:54:19 PM] [INFO] Agency : AgencyB
+[7/16/2026, 4:54:19 PM] [INFO] Schema : SchemaB
+[7/16/2026, 4:54:19 PM] [INFO] Folder : /Users/bhargaviagarwal/Desktop/drop_folder/agencyB
+[7/16/2026, 4:54:19 PM] [INFO] No files found.
+[7/16/2026, 4:54:19 PM] [INFO] ========================================
+[7/16/2026, 4:54:19 PM] [INFO] ETL Process Completed
+[7/16/2026, 4:54:19 PM] [INFO] ========================================
