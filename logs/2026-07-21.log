@@ -1,0 +1,114 @@
+[7/21/2026, 5:25:44 PM] [INFO] ========================================
+[7/21/2026, 5:25:44 PM] [INFO] Starting ETL Process...
+[7/21/2026, 5:25:44 PM] [INFO] ========================================
+[7/21/2026, 5:25:44 PM] [INFO] ========================================
+[7/21/2026, 5:25:44 PM] [INFO] Agency : AgencyA
+[7/21/2026, 5:25:44 PM] [INFO] Schema : SchemaA
+[7/21/2026, 5:25:44 PM] [INFO] Folder : /Users/bhargaviagarwal/Desktop/drop_folder/agencyA
+[7/21/2026, 5:25:44 PM] [INFO] No files found.
+[7/21/2026, 5:25:44 PM] [INFO] ========================================
+[7/21/2026, 5:25:44 PM] [INFO] Agency : AgencyB
+[7/21/2026, 5:25:44 PM] [INFO] Schema : SchemaB
+[7/21/2026, 5:25:44 PM] [INFO] Folder : /Users/bhargaviagarwal/Desktop/drop_folder/agencyB
+[7/21/2026, 5:25:44 PM] [INFO] No files found.
+[7/21/2026, 5:25:44 PM] [INFO] ========================================
+[7/21/2026, 5:25:44 PM] [INFO] ETL Process Completed
+[7/21/2026, 5:25:44 PM] [INFO] ========================================
+[7/21/2026, 6:06:31 PM] [INFO] ========================================
+[7/21/2026, 6:06:31 PM] [INFO] Starting ETL Process...
+[7/21/2026, 6:06:31 PM] [INFO] ========================================
+[7/21/2026, 6:06:31 PM] [INFO] ========================================
+[7/21/2026, 6:06:31 PM] [INFO] Agency : AgencyA
+[7/21/2026, 6:06:31 PM] [INFO] Schema : SchemaA
+[7/21/2026, 6:06:31 PM] [INFO] Folder : /Users/bhargaviagarwal/Desktop/drop_folder/agencyA
+[7/21/2026, 6:06:31 PM] [INFO] ----------------------------------------
+[7/21/2026, 6:06:31 PM] [INFO] Processing File : /Users/bhargaviagarwal/Desktop/drop_folder/agencyA/20260716_155928_pollution1.csv
+[7/21/2026, 6:06:31 PM] [INFO] --------------------------------
+[7/21/2026, 6:06:31 PM] [INFO] Validating Schema : SchemaA
+[7/21/2026, 6:06:31 PM] [INFO] File : /Users/bhargaviagarwal/Desktop/drop_folder/agencyA/20260716_155928_pollution1.csv
+[7/21/2026, 6:06:31 PM] [ERROR] Schema Validation Failed
+[7/21/2026, 6:06:31 PM] [ERROR] Missing Columns : City, Date, PM2.5, PM10, NO, NO2, NOx, NH3, CO, SO2, O3, Benzene, Toluene, Xylene, AQI, AQI_Bucket
+[7/21/2026, 6:06:31 PM] [ERROR] ----------------------------------------
+[7/21/2026, 6:06:31 PM] [ERROR] Processing Failed
+[7/21/2026, 6:06:31 PM] [ERROR] Missing Columns : City, Date, PM2.5, PM10, NO, NO2, NOx, NH3, CO, SO2, O3, Benzene, Toluene, Xylene, AQI, AQI_Bucket
+[7/21/2026, 6:06:31 PM] [ERROR] File moved to rejected folder : /Users/bhargaviagarwal/Desktop/rejected_folder/agencyA/20260721_180631_20260716_155928_pollution1.csv
+[7/21/2026, 6:06:31 PM] [INFO] ========================================
+[7/21/2026, 6:06:31 PM] [INFO] Agency : AgencyB
+[7/21/2026, 6:06:31 PM] [INFO] Schema : SchemaB
+[7/21/2026, 6:06:31 PM] [INFO] Folder : /Users/bhargaviagarwal/Desktop/drop_folder/agencyB
+[7/21/2026, 6:06:31 PM] [INFO] No files found.
+[7/21/2026, 6:06:31 PM] [INFO] ========================================
+[7/21/2026, 6:06:31 PM] [INFO] ETL Process Completed
+[7/21/2026, 6:06:31 PM] [INFO] ========================================
+[7/21/2026, 6:07:00 PM] [INFO] ========================================
+[7/21/2026, 6:07:00 PM] [INFO] Starting ETL Process...
+[7/21/2026, 6:07:00 PM] [INFO] ========================================
+[7/21/2026, 6:07:00 PM] [INFO] ========================================
+[7/21/2026, 6:07:00 PM] [INFO] Agency : AgencyA
+[7/21/2026, 6:07:00 PM] [INFO] Schema : SchemaA
+[7/21/2026, 6:07:00 PM] [INFO] Folder : /Users/bhargaviagarwal/Desktop/drop_folder/agencyA
+[7/21/2026, 6:07:00 PM] [INFO] No files found.
+[7/21/2026, 6:07:00 PM] [INFO] ========================================
+[7/21/2026, 6:07:00 PM] [INFO] Agency : AgencyB
+[7/21/2026, 6:07:00 PM] [INFO] Schema : SchemaB
+[7/21/2026, 6:07:00 PM] [INFO] Folder : /Users/bhargaviagarwal/Desktop/drop_folder/agencyB
+[7/21/2026, 6:07:00 PM] [INFO] ----------------------------------------
+[7/21/2026, 6:07:00 PM] [INFO] Processing File : /Users/bhargaviagarwal/Desktop/drop_folder/agencyB/20260721_180631_20260716_155928_pollution1.csv
+[7/21/2026, 6:07:00 PM] [INFO] --------------------------------
+[7/21/2026, 6:07:00 PM] [INFO] Validating Schema : SchemaB
+[7/21/2026, 6:07:00 PM] [INFO] File : /Users/bhargaviagarwal/Desktop/drop_folder/agencyB/20260721_180631_20260716_155928_pollution1.csv
+[7/21/2026, 6:07:00 PM] [INFO] Schema Validation Passed
+[7/21/2026, 6:07:01 PM] [WARNING] Importing 499 records...
+[7/21/2026, 6:07:02 PM] [ERROR] ----------------------------------------
+[7/21/2026, 6:07:02 PM] [ERROR] Processing Failed
+[7/21/2026, 6:07:02 PM] [ERROR] date/time field value out of range: "18-07-2026 21:00:00"
+[7/21/2026, 6:07:02 PM] [ERROR] File moved to rejected folder : /Users/bhargaviagarwal/Desktop/rejected_folder/agencyB/20260721_180702_20260721_180631_20260716_155928_pollution1.csv
+[7/21/2026, 6:07:02 PM] [INFO] ========================================
+[7/21/2026, 6:07:02 PM] [INFO] ETL Process Completed
+[7/21/2026, 6:07:02 PM] [INFO] ========================================
+[7/21/2026, 6:11:49 PM] [INFO] ========================================
+[7/21/2026, 6:11:49 PM] [INFO] Starting ETL Process...
+[7/21/2026, 6:11:49 PM] [INFO] ========================================
+[7/21/2026, 6:11:49 PM] [INFO] ========================================
+[7/21/2026, 6:11:49 PM] [INFO] Agency : AgencyA
+[7/21/2026, 6:11:49 PM] [INFO] Schema : SchemaA
+[7/21/2026, 6:11:49 PM] [INFO] Folder : /Users/bhargaviagarwal/Desktop/drop_folder/agencyA
+[7/21/2026, 6:11:49 PM] [INFO] No files found.
+[7/21/2026, 6:11:49 PM] [INFO] ========================================
+[7/21/2026, 6:11:49 PM] [INFO] Agency : AgencyB
+[7/21/2026, 6:11:49 PM] [INFO] Schema : SchemaB
+[7/21/2026, 6:11:49 PM] [INFO] Folder : /Users/bhargaviagarwal/Desktop/drop_folder/agencyB
+[7/21/2026, 6:11:49 PM] [INFO] ----------------------------------------
+[7/21/2026, 6:11:49 PM] [INFO] Processing File : /Users/bhargaviagarwal/Desktop/drop_folder/agencyB/20260716_155928_pollution1.csv
+[7/21/2026, 6:11:49 PM] [INFO] --------------------------------
+[7/21/2026, 6:11:49 PM] [INFO] Validating Schema : SchemaB
+[7/21/2026, 6:11:49 PM] [INFO] File : /Users/bhargaviagarwal/Desktop/drop_folder/agencyB/20260716_155928_pollution1.csv
+[7/21/2026, 6:11:49 PM] [INFO] Schema Validation Passed
+[7/21/2026, 6:11:49 PM] [WARNING] Importing 499 records...
+[7/21/2026, 6:12:03 PM] [WARNING] City Not Found : Byrnihat
+[7/21/2026, 6:12:41 PM] [WARNING] City Not Found : Mandikhera
+[7/21/2026, 6:12:55 PM] [WARNING] City Not Found : Chamarajanagar
+[7/21/2026, 6:12:56 PM] [WARNING] City Not Found : Ramanagara
+[7/21/2026, 6:13:08 PM] [WARNING] City Not Found : Pimpri-Chinchwad
+[7/21/2026, 6:13:09 PM] [WARNING] City Not Found : Pimpri-Chinchwad
+[7/21/2026, 6:13:09 PM] [WARNING] City Not Found : Pimpri-Chinchwad
+[7/21/2026, 6:13:09 PM] [WARNING] City Not Found : Pimpri-Chinchwad
+[7/21/2026, 6:13:10 PM] [WARNING] City Not Found : Pimpri-Chinchwad
+[7/21/2026, 6:13:10 PM] [WARNING] City Not Found : Pimpri-Chinchwad
+[7/21/2026, 6:13:27 PM] [WARNING] City Not Found : Rourkela
+[7/21/2026, 6:13:27 PM] [WARNING] City Not Found : Rourkela
+[7/21/2026, 6:13:41 PM] [WARNING] City Not Found : Byrnihat
+[7/21/2026, 6:14:16 PM] [WARNING] City Not Found : Barrackpore
+[7/21/2026, 6:14:46 PM] [WARNING] City Not Found : Mira-Bhayandar
+[7/21/2026, 6:14:49 PM] [WARNING] City Not Found : Rourkela
+[7/21/2026, 6:15:08 PM] [INFO] Duplicates :
+[7/21/2026, 6:15:08 PM] [WARNING] City Not Found :
+[7/21/2026, 6:15:08 PM] [INFO] File Archived Successfully
+[7/21/2026, 6:15:08 PM] [INFO] Archived To : /Users/bhargaviagarwal/Desktop/archive_folder/AgencyB/20260721_181508_20260716_155928_pollution1.csv
+[7/21/2026, 6:15:08 PM] [INFO] ----------------------------------------
+[7/21/2026, 6:15:08 PM] [INFO] File Processed Successfully
+[7/21/2026, 6:15:08 PM] [INFO] Clean File : cleaned_data/agencyB_20260716_155928_pollution1_clean.csv
+[7/21/2026, 6:15:08 PM] [INFO] Transformed File : transformed_data/cleaned_data_agencyB_20260716_155928_pollution1_transformed.csv
+[7/21/2026, 6:15:08 PM] [INFO] ========================================
+[7/21/2026, 6:15:08 PM] [INFO] ETL Process Completed
+[7/21/2026, 6:15:08 PM] [INFO] ========================================

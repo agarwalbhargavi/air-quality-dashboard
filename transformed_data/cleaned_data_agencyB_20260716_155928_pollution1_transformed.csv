@@ -1,0 +1,500 @@
+city,state,station,latitude,longitude,pollution_date,year,month,quarter,season,pm25,pm10,no,no2,nox,nh3,co,so2,o3,benzene,toluene,xylene,aqi,aqi_bucket,source
+Rajgir,,"Dangi Tola, Rajgir - BSPCB",25.0328,85.41948,07-18-2026 21:00:00,2026,7,3,Monsoon,55,51,,14,,3,42,3,24,,,,,,Realtime
+Saharsa,,"Police Line, Saharsa - BSPCB",25.892357,86.590325,07-18-2026 21:00:00,2026,7,3,Monsoon,,84,,7,,4,39,17,19,,,,,,Realtime
+Samastipur,,"DM Office_Kasipur, Samastipur - BSPCB",25.859655,85.77944,07-18-2026 21:00:00,2026,7,3,Monsoon,95,79,,8,,1,1,19,14,,,,,,Realtime
+Siwan,,"Chitragupta Nagar, Siwan - BSPCB",26.2271665,84.3570427,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,2,,1,,6,,,,,,,Realtime
+Chandigarh,,"Sector-25, Chandigarh - CPCC",30.751462,76.762879,07-18-2026 21:00:00,2026,7,3,Monsoon,28,28,,10,,14,21,6,15,,,,,,Realtime
+Chandigarh,,"Sector 22, Chandigarh - CPCC",30.735567,76.775714,07-18-2026 21:00:00,2026,7,3,Monsoon,19,20,,8,,12,41,4,5,,,,,,Realtime
+Chandigarh,,"Sector-53, Chandigarh - CPCC",30.719859,76.738637,07-18-2026 21:00:00,2026,7,3,Monsoon,13,13,,30,,19,42,3,3,,,,,,Realtime
+Bhilai,,"32Bungalows, Bhilai - CECB",21.194815,81.31477,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,4,,23,,,,,,Realtime
+Bhilai,,"Hathkhoj, Bhilai - CECB",21.224231,81.40835,07-18-2026 21:00:00,2026,7,3,Monsoon,43,44,,15,,4,9,16,15,,,,,,Realtime
+Chhal,,"Nawapara SECL Colony, Chhal - CECB",22.118125,83.140608,07-18-2026 21:00:00,2026,7,3,Monsoon,25,37,,6,,,20,9,45,,,,,,Realtime
+Nalbari,,"Bata Chowk, Nalbari - PCBA",26.446912,91.439057,07-18-2026 21:00:00,2026,7,3,Monsoon,67,48,,14,,6,21,8,19,,,,,,Realtime
+Silchar,,"Tarapur, Silchar - PCBA",24.82827,92.79525,07-18-2026 21:00:00,2026,7,3,Monsoon,32,48,,18,,1,35,6,2,,,,,,Realtime
+Araria,,"Kharahiya Basti, Araria - BSPCB",26.146529,87.454184,07-18-2026 21:00:00,2026,7,3,Monsoon,68,73,,14,,5,23,7,10,,,,,,Realtime
+Arrah,,"New DM Office, Arrah - BSPCB",25.5626095,84.663264,07-18-2026 21:00:00,2026,7,3,Monsoon,297,236,,7,,2,56,5,8,,,,,,Realtime
+Aurangabad,,"Gurdeo Nagar, Aurangabad - BSPCB",24.75746,84.366208,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,8,,1,102,12,6,,,,,,Realtime
+Begusarai,,"Lohiyanagar, Begusarai - BSPCB",25.42742023,86.13886079,07-18-2026 21:00:00,2026,7,3,Monsoon,37,41,,9,,16,17,19,40,,,,,,Realtime
+Bettiah,,"Kamalnath Nagar, Bettiah - BSPCB",26.80365,84.51954,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,40,11,23,,,,,,Realtime
+Bhagalpur,,"DM Office_Kachari Chowk, Bhagalpur - BSPCB",25.251013,86.989001,07-18-2026 21:00:00,2026,7,3,Monsoon,40,80,,12,,4,41,21,18,,,,,,Realtime
+Bhagalpur,,"Mayaganj, Bhagalpur - BSPCB",25.265194,87.012947,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,7,,2,40,16,20,,,,,,Realtime
+Korba,,"Rampur, Korba - CECB",22.368195,82.746431,07-18-2026 21:00:00,2026,7,3,Monsoon,18,30,,14,,1,11,5,8,,,,,,Realtime
+Kunjemura,,"OP Jindal School, Kunjemura - CECB",22.12665,83.483212,07-18-2026 21:00:00,2026,7,3,Monsoon,10,45,,12,,2,21,10,10,,,,,,Realtime
+Milupara,,"Govt. Higher Secondary School, Milupara - CECB",22.1910172,83.5197009,07-18-2026 21:00:00,2026,7,3,Monsoon,19,28,,25,,2,23,14,76,,,,,,Realtime
+Raipur,,"Bhatagaon New ISBT, Raipur - CECB",21.219665,81.630094,07-18-2026 21:00:00,2026,7,3,Monsoon,10,18,,3,,2,21,3,4,,,,,,Realtime
+Raipur,,"Siltara Phase-II, Raipur - CECB",21.371751,81.664929,07-18-2026 21:00:00,2026,7,3,Monsoon,37,58,,4,,2,17,8,8,,,,,,Realtime
+Raipur,,"AIIMS, Raipur - CECB",21.258815,81.578979,07-18-2026 21:00:00,2026,7,3,Monsoon,14,21,,4,,4,17,4,13,,,,,,Realtime
+Raipur,,"Krishak Nagar, Raipur - CECB",21.237755,81.705301,07-18-2026 21:00:00,2026,7,3,Monsoon,10,14,,2,,2,11,5,6,,,,,,Realtime
+Tumidih,,"OP Jindal Industrial Park, Tumidih - CECB",22.06631475,83.33820077,07-18-2026 21:00:00,2026,7,3,Monsoon,51,62,,45,,1,20,5,27,,,,,,Realtime
+Visakhapatnam,,"GVM Corporation, Visakhapatnam - APPCB",17.72,83.3,07-18-2026 21:00:00,2026,7,3,Monsoon,47,117,,50,,3,19,16,30,,,,,,Realtime
+Naharlagun,,"Naharlagun, Naharlagun - APSPCB",27.103358,93.679645,07-18-2026 21:00:00,2026,7,3,Monsoon,14,17,,8,,1,7,11,6,,,,,,Realtime
+Byrnihat,,"Central Academy for SFS, Byrnihat - PCBA",26.071318,91.87488,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,47,,31,,,,,,Realtime
+Guwahati,,"Railway Colony, Guwahati - PCBA",26.181742,91.78063,07-18-2026 21:00:00,2026,7,3,Monsoon,17,,,3,,1,14,41,23,,,,,,Realtime
+Guwahati,,"LGBI Airport, Guwahati - PCBA",26.10887,91.589544,07-18-2026 21:00:00,2026,7,3,Monsoon,53,42,,27,,4,25,10,29,,,,,,Realtime
+Guwahati,,"Pan Bazaar, Guwahati - PCBA",26.1875,91.744194,07-18-2026 21:00:00,2026,7,3,Monsoon,288,283,,0,,1,18,33,18,,,,,,Realtime
+Muzaffarpur,,"Muzaffarpur Collectorate, Muzaffarpur - BSPCB",26.1209,85.3647,07-18-2026 21:00:00,2026,7,3,Monsoon,48,,,19,,,36,6,28,,,,,,Realtime
+Patna,,"Muradpur, Patna - BSPCB",25.619651,85.147382,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,49,,71,,,,,,Realtime
+Patna,,"DRM Office Danapur, Patna - BSPCB",25.586562,85.043586,07-18-2026 21:00:00,2026,7,3,Monsoon,32,50,,31,,9,37,6,12,,,,,,Realtime
+Patna,,"Samanpura, Patna - BSPCB",25.596727,85.085624,07-18-2026 21:00:00,2026,7,3,Monsoon,89,89,,18,,8,36,5,37,,,,,,Realtime
+Patna,,"IGSC Planetarium Complex, Patna - BSPCB",25.610369,85.132568,07-18-2026 21:00:00,2026,7,3,Monsoon,60,,,3,,,46,40,59,,,,,,Realtime
+Purnia,,"Mariam Nagar, Purnia - BSPCB",25.366336,87.117468,07-18-2026 21:00:00,2026,7,3,Monsoon,58,46,,6,,2,57,16,24,,,,,,Realtime
+Chittoor,,"Gangineni Cheruvu, Chittoor - APPCB",13.20488,79.097889,07-18-2026 21:00:00,2026,7,3,Monsoon,64,65,,26,,7,21,19,47,,,,,,Realtime
+Eluru,,"District Court, Eluru - APPCB",16.711754,81.092095,07-18-2026 21:00:00,2026,7,3,Monsoon,64,63,,15,,6,30,18,18,,,,,,Realtime
+Guntur,,"Rajendra Nagar North, Guntur - APPCB",16.316553,80.413302,07-18-2026 21:00:00,2026,7,3,Monsoon,51,51,,32,,7,37,9,35,,,,,,Realtime
+Kadapa,,"Yerramukkapalli, Kadapa - APPCB",14.465052,78.824187,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,18,,45,,,,,,Realtime
+Kurnool,,"Sita Rama Nagar, Kurnool - APPCB",15.83411,78.028546,07-18-2026 21:00:00,2026,7,3,Monsoon,34,38,,26,,5,8,10,22,,,,,,Realtime
+Machilipatnam,,"Srinivas Nagar Colony, Machilipatnam - APPCB",16.186555,81.13219,07-18-2026 21:00:00,2026,7,3,Monsoon,55,54,,20,,3,26,16,31,,,,,,Realtime
+Nellore,,"Ambedkar Nagar, Nellore - APPCB",14.438164,79.966814,07-18-2026 21:00:00,2026,7,3,Monsoon,55,61,,24,,6,38,16,39,,,,,,Realtime
+Rajamahendravaram,,"Anand Kala Kshetram, Rajamahendravaram - APPCB",16.9872867,81.7363176,07-18-2026 21:00:00,2026,7,3,Monsoon,23,45,,3,,1,26,5,25,,,,,,Realtime
+Tirumala,,"Toll Gate, Tirumala - APPCB",13.67,79.35,07-18-2026 21:00:00,2026,7,3,Monsoon,23,31,,61,,2,23,6,18,,,,,,Realtime
+Tirupati,,"Vaikuntapuram, Tirupati - APPCB",13.615387,79.40923,07-18-2026 21:00:00,2026,7,3,Monsoon,64,74,,33,,5,24,18,42,,,,,,Realtime
+Vijayawada,,"HB Colony, Vijayawada - APPCB",16.536107,80.594233,07-18-2026 21:00:00,2026,7,3,Monsoon,62,63,,12,,3,30,11,22,,,,,,Realtime
+Vijayawada,,"Kanuru, Vijayawada - APPCB",16.486692,80.699436,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,25,,32,,,,,,Realtime
+Bihar Sharif,,"D M Colony, Bihar Sharif - BSPCB",25.204762,85.51496,07-18-2026 21:00:00,2026,7,3,Monsoon,64,40,,9,,3,,6,2,,,,,,Realtime
+Gaya,,"Collectorate, Gaya - BSPCB",24.7955,84.9994,07-18-2026 21:00:00,2026,7,3,Monsoon,36,,,9,,,12,7,29,,,,,,Realtime
+Gaya,,"Kareemganj, Gaya - BSPCB",24.792403,84.992416,07-18-2026 21:00:00,2026,7,3,Monsoon,46,78,,12,,1,33,44,29,,,,,,Realtime
+Katihar,,"Mirchaibari, Katihar - BSPCB",25.560083,87.553265,07-18-2026 21:00:00,2026,7,3,Monsoon,9,10,,2,,1,88,21,20,,,,,,Realtime
+Munger,,"Town Hall, Munger - BSPCB",25.376776,86.471523,07-18-2026 21:00:00,2026,7,3,Monsoon,52,41,,5,,3,47,29,25,,,,,,Realtime
+Muzaffarpur,,"MIT-Daudpur Kothi, Muzaffarpur - BSPCB",26.1403345,85.3650192,07-18-2026 21:00:00,2026,7,3,Monsoon,34,31,,7,,0,100,17,58,,,,,,Realtime
+Amaravati,,"Secretariat, Amaravati - APPCB",16.5150833,80.5181667,07-18-2026 21:00:00,2026,7,3,Monsoon,30,65,,20,,3,10,18,31,,,,,,Realtime
+Bhavnagar,,"Vidhyanagar, Bhavnagar - Nexteng Enviro",21.755417,72.139056,07-18-2026 21:00:00,2026,7,3,Monsoon,39,67,,41,,4,80,7,15,,,,,,Realtime
+Gandhinagar,,"Sector-10, Gandhinagar - GPCB",23.221714,72.654328,07-18-2026 21:00:00,2026,7,3,Monsoon,44,76,,9,,1,14,5,13,,,,,,Realtime
+Gandhinagar,,"GIFT City, Gandhinagar - IITM",23.163798,72.677768,07-18-2026 21:00:00,2026,7,3,Monsoon,52,93,,,,,39,3,3,,,,,,Realtime
+Mehsana,,"Sadanand Nagar, Mehsana - Nexteng Enviro",23.59315,72.372792,07-18-2026 21:00:00,2026,7,3,Monsoon,51,70,,9,,1,70,13,9,,,,,,Realtime
+Rajkot,,"Mavdi, Rajkot - Nexteng Enviro",22.248853,70.776774,07-18-2026 21:00:00,2026,7,3,Monsoon,52,60,,57,,1,89,10,7,,,,,,Realtime
+Surat,,"Katargam, Surat - Nexteng Enviro",21.217779,72.834787,07-18-2026 21:00:00,2026,7,3,Monsoon,27,87,,17,,1,41,7,4,,,,,,Realtime
+Vadodara,,"Bapunagar, Vadodara - Nexteng Enviro",22.320153,73.216285,07-18-2026 21:00:00,2026,7,3,Monsoon,59,82,,12,,2,96,6,4,,,,,,Realtime
+Vatva,,"Phase-4 GIDC, Vatva - GPCB",22.969611,72.6435,07-18-2026 21:00:00,2026,7,3,Monsoon,57,119,,46,,2,34,10,27,,,,,,Realtime
+Ambala,,"Patti Mehar, Ambala - HSPCB",30.379589,76.778328,07-18-2026 21:00:00,2026,7,3,Monsoon,34,82,,30,,7,11,22,15,,,,,,Realtime
+Delhi,,"Pusa, Delhi - IITM",28.63611,77.173332,07-18-2026 21:00:00,2026,7,3,Monsoon,16,21,,41,,,32,,38,,,,,,Realtime
+Delhi,,"Cantonment Area, Delhi - DPCC",28.594169,77.1251,07-18-2026 21:00:00,2026,7,3,Monsoon,10,25,,17,,2,52,7,35,,,,,,Realtime
+Delhi,,"Major Dhyan Chand National Stadium, Delhi - DPCC",28.611281,77.237738,07-18-2026 21:00:00,2026,7,3,Monsoon,14,31,,25,,10,38,7,7,,,,,,Realtime
+Delhi,,"Sonia Vihar, Delhi - DPCC",28.710508,77.249485,07-18-2026 21:00:00,2026,7,3,Monsoon,,13,,9,,17,43,9,10,,,,,,Realtime
+Delhi,,"Bawana, Delhi - DPCC",28.7762,77.051074,07-18-2026 21:00:00,2026,7,3,Monsoon,40,85,,7,,14,46,4,4,,,,,,Realtime
+Delhi,,"Nehru Nagar, Delhi - DPCC",28.56789,77.250515,07-18-2026 21:00:00,2026,7,3,Monsoon,,32,,20,,10,8,20,17,,,,,,Realtime
+Delhi,,"Patparganj, Delhi - DPCC",28.623763,77.287209,07-18-2026 21:00:00,2026,7,3,Monsoon,16,19,,13,,9,43,6,14,,,,,,Realtime
+Delhi,,"IHBAS, Dilshad Garden, Delhi - CPCB",28.6811736,77.3025234,07-18-2026 21:00:00,2026,7,3,Monsoon,55,57,,24,,4,60,18,42,,,,,,Realtime
+Delhi,,"Sri Aurobindo Marg, Delhi - DPCC",28.531346,77.190156,07-18-2026 21:00:00,2026,7,3,Monsoon,21,,,22,,11,34,7,23,,,,,,Realtime
+Delhi,,"Alipur, Delhi - DPCC",28.815329,77.15301,07-18-2026 21:00:00,2026,7,3,Monsoon,12,23,,16,,22,25,4,7,,,,,,Realtime
+Delhi,,"IMD Lodhi Road, Delhi - IITM",28.5918245,77.2273074,07-18-2026 21:00:00,2026,7,3,Monsoon,20,24,,13,,,33,,34,,,,,,Realtime
+Delhi,,"Burari Crossing, Delhi - IITM",28.7256504,77.2011573,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,18,,,55,,24,,,,,,Realtime
+Delhi,,"Narela, Delhi - DPCC",28.822836,77.101981,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,39,,7,,,,,,Realtime
+Delhi,,"JNU, Delhi - DPCC",28.540721,77.168544,07-18-2026 21:00:00,2026,7,3,Monsoon,22,28,,18,,4,24,1,31,,,,,,Realtime
+Delhi,,"CRRI Mathura Road, Delhi - IITM",28.5512005,77.2735737,07-18-2026 21:00:00,2026,7,3,Monsoon,18,,,34,,,69,,13,,,,,,Realtime
+Delhi,,"Aya Nagar, Delhi - IITM",28.4706914,77.1099364,07-18-2026 21:00:00,2026,7,3,Monsoon,21,,,25,,,26,,32,,,,,,Realtime
+Delhi,,"NSIT Dwarka, Delhi - CPCB",28.60909,77.0325413,07-18-2026 21:00:00,2026,7,3,Monsoon,61,44,,41,,7,58,15,26,,,,,,Realtime
+Delhi,,"NSUT Jaffarpur, Delhi - DPCC",28.594004,76.909423,07-18-2026 21:00:00,2026,7,3,Monsoon,35,32,,12,,2,42,7,49,,,,,,Realtime
+Delhi,,"Talkatora Garden, Delhi - DPCC",28.62181,77.1944633,07-18-2026 21:00:00,2026,7,3,Monsoon,29,27,,16,,2,40,0,18,,,,,,Realtime
+Bahadurgarh,,"Arya Nagar, Bahadurgarh - HSPCB",28.6701,76.9254,07-18-2026 21:00:00,2026,7,3,Monsoon,48,37,,16,,11,47,6,25,,,,,,Realtime
+Ballabgarh,,"Nathu Colony, Ballabgarh - HSPCB",28.3419248,77.319699,07-18-2026 21:00:00,2026,7,3,Monsoon,90,206,,20,,5,49,4,7,,,,,,Realtime
+Bhiwani,,"H.B. Colony, Bhiwani - HSPCB",28.806223,76.141105,07-18-2026 21:00:00,2026,7,3,Monsoon,65,65,,8,,2,20,13,13,,,,,,Realtime
+Faridabad,,"New Industrial Town, Faridabad - HSPCB",28.39072,77.30059,07-18-2026 21:00:00,2026,7,3,Monsoon,83,100,,25,,11,23,14,14,,,,,,Realtime
+Faridabad,,"Sector 30, Faridabad - HSPCB",28.4417,77.3217,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,60,,20,,,,,,Realtime
+Faridabad,,"Sector 11, Faridabad - HSPCB",28.376058,77.315741,07-18-2026 21:00:00,2026,7,3,Monsoon,88,81,,31,,8,76,5,25,,,,,,Realtime
+Fatehabad,,"Huda Sector, Fatehabad - HSPCB",29.503664,75.467934,07-18-2026 21:00:00,2026,7,3,Monsoon,36,56,,19,,14,47,29,20,,,,,,Realtime
+Delhi,,"Commonwealth Sports Complex, Delhi - DPCC",28.615828,77.271992,07-18-2026 21:00:00,2026,7,3,Monsoon,28,24,,34,,2,,9,10,,,,,,Realtime
+Delhi,,"Punjabi Bagh, Delhi - DPCC",28.674045,77.131023,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,20,,4,46,37,17,,,,,,Realtime
+Delhi,,"Shadipur, Delhi - CPCB",28.6514781,77.1473105,07-18-2026 21:00:00,2026,7,3,Monsoon,31,,,35,,12,49,11,39,,,,,,Realtime
+Delhi,,"IGNOU_Maidan Garhi, Delhi - DPCC",28.493624,77.201159,07-18-2026 21:00:00,2026,7,3,Monsoon,8,23,,14,,2,31,4,10,,,,,,Realtime
+Delhi,,"IGI Airport (T3), Delhi - IITM",28.5627763,77.1180053,07-18-2026 21:00:00,2026,7,3,Monsoon,16,26,,31,,,25,,60,,,,,,Realtime
+Delhi,,"Chandni Chowk, Delhi - IITM",28.656756,77.227234,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,12,,4,64,26,42,,,,,,Realtime
+Ahmedabad,,"SAC ISRO Satellite, Ahmedabad - IITM",23.023389,72.515201,07-18-2026 21:00:00,2026,7,3,Monsoon,63,78,,28,,2,21,2,28,,,,,,Realtime
+Ahmedabad,,"Maninagar, Ahmedabad - GPCB",23.002657,72.591912,07-18-2026 21:00:00,2026,7,3,Monsoon,84,84,,34,,,62,24,57,,,,,,Realtime
+Ahmedabad,,"Chandkheda, Ahmedabad - IITM",23.107969,72.574648,07-18-2026 21:00:00,2026,7,3,Monsoon,48,88,,12,,4,40,11,8,,,,,,Realtime
+Ahmedabad,,"Raikhad, Ahmedabad - IITM",23.020509,72.579261,07-18-2026 21:00:00,2026,7,3,Monsoon,33,110,,12,,10,43,3,12,,,,,,Realtime
+Ahmedabad,,"SAC ISRO Bopal, Ahmedabad - IITM",23.041137,72.456691,07-18-2026 21:00:00,2026,7,3,Monsoon,61,72,,3,,2,22,0,24,,,,,,Realtime
+Ahmedabad,,"Gyaspur, Ahmedabad - IITM",22.977134,72.553024,07-18-2026 21:00:00,2026,7,3,Monsoon,29,94,,11,,24,49,7,12,,,,,,Realtime
+Delhi,,"Anand Vihar, Delhi - DPCC",28.647622,77.315809,07-18-2026 21:00:00,2026,7,3,Monsoon,54,51,,28,,8,89,19,7,,,,,,Realtime
+Delhi,,"Ashok Vihar, Delhi - DPCC",28.695381,77.181665,07-18-2026 21:00:00,2026,7,3,Monsoon,21,36,,16,,10,42,11,6,,,,,,Realtime
+Delhi,,"Dwarka-Sector 8, Delhi - DPCC",28.5710274,77.0719006,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,13,,10,35,16,20,,,,,,Realtime
+Delhi,,"IIT Delhi, Delhi - IITM",28.54246,77.191651,07-18-2026 21:00:00,2026,7,3,Monsoon,18,36,,10,,,35,,26,,,,,,Realtime
+Delhi,,"ITO, Delhi - CPCB",28.628624,77.24106,07-18-2026 21:00:00,2026,7,3,Monsoon,25,22,,56,,4,48,16,39,,,,,,Realtime
+Delhi,,"R K Puram, Delhi - DPCC",28.563262,77.186937,07-18-2026 21:00:00,2026,7,3,Monsoon,,28,,31,,6,34,42,17,,,,,,Realtime
+Delhi,,"North Campus, DU, Delhi - IITM",28.6573814,77.1585447,07-18-2026 21:00:00,2026,7,3,Monsoon,21,,,56,,,69,,44,,,,,,Realtime
+Gurugram,,"NISE Gwal Pahari, Gurugram - IITM",28.422681,77.148944,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,16,,,66,,30,,,,,,Realtime
+Gurugram,,"Vikas Sadan, Gurugram - HSPCB",28.4501238,77.0263051,07-18-2026 21:00:00,2026,7,3,Monsoon,80,53,,14,,,33,3,3,,,,,,Realtime
+Gurugram,,"Teri Gram, Gurugram - HSPCB",28.4275,77.1465,07-18-2026 21:00:00,2026,7,3,Monsoon,87,75,,47,,13,19,12,19,,,,,,Realtime
+Hisar,,"Urban Estate-II, Hisar - HSPCB",29.14056,75.744941,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,54,,,,,,,,Realtime
+Jind,,"Police Lines, Jind - HSPCB",29.307814,76.337619,07-18-2026 21:00:00,2026,7,3,Monsoon,41,35,,13,,5,47,28,10,,,,,,Realtime
+Delhi,,"Rohini, Delhi - DPCC",28.732528,77.11992,07-18-2026 21:00:00,2026,7,3,Monsoon,20,28,,11,,13,51,6,4,,,,,,Realtime
+Delhi,,"Vivek Vihar, Delhi - DPCC",28.672342,77.31526,07-18-2026 21:00:00,2026,7,3,Monsoon,28,25,,30,,7,34,8,31,,,,,,Realtime
+Delhi,,"Jahangirpuri, Delhi - DPCC",28.73282,77.170633,07-18-2026 21:00:00,2026,7,3,Monsoon,59,104,,18,,5,45,6,10,,,,,,Realtime
+Delhi,,"Mundka, Delhi - DPCC",28.684678,77.076574,07-18-2026 21:00:00,2026,7,3,Monsoon,22,29,,82,,9,40,8,5,,,,,,Realtime
+Delhi,,"Wazirpur, Delhi - DPCC",28.699793,77.165453,07-18-2026 21:00:00,2026,7,3,Monsoon,26,39,,28,,11,94,9,18,,,,,,Realtime
+Kaithal,,"Rishi Nagar, Kaithal - HSPCB",29.8006,76.4155,07-18-2026 21:00:00,2026,7,3,Monsoon,53,65,,22,,5,26,33,11,,,,,,Realtime
+Karnal,,"Sector-12, Karnal - HSPCB",29.6953,77.0027,07-18-2026 21:00:00,2026,7,3,Monsoon,51,54,,14,,8,50,13,7,,,,,,Realtime
+Kurukshetra,,"Sector-7, Kurukshetra - HSPCB",29.966942,76.875879,07-18-2026 21:00:00,2026,7,3,Monsoon,35,43,,73,,15,12,6,32,,,,,,Realtime
+Mandikhera,,"General Hospital, Mandikhera(Nuh) - HSPCB",27.9002,76.9938,07-18-2026 21:00:00,2026,7,3,Monsoon,51,79,,15,,8,33,21,48,,,,,,Realtime
+Manesar,,"Sector-2 IMT, Manesar - HSPCB",28.360699,76.93609,07-18-2026 21:00:00,2026,7,3,Monsoon,79,79,,41,,15,10,8,22,,,,,,Realtime
+Narnaul,,"Shastri Nagar, Narnaul - HSPCB",28.060249,76.113115,07-18-2026 21:00:00,2026,7,3,Monsoon,120,94,,21,,8,12,10,28,,,,,,Realtime
+Palwal,,"Shyam Nagar, Palwal - HSPCB",28.1485564,77.3320667,07-18-2026 21:00:00,2026,7,3,Monsoon,38,69,,24,,8,40,24,16,,,,,,Realtime
+Panchgaon,,"Amity University, Panchgaon - IITM",28.3153,76.9143,07-18-2026 21:00:00,2026,7,3,Monsoon,31,31,,26,,18,30,7,42,,,,,,Realtime
+Panchkula,,"Sector-6, Panchkula - HSPCB",30.7057778,76.8531805555555,07-18-2026 21:00:00,2026,7,3,Monsoon,35,,,24,,,19,11,24,,,,,,Realtime
+Srinagar,,"Rajbagh, Srinagar - JKPCC",34.066206,74.81982,07-18-2026 21:00:00,2026,7,3,Monsoon,24,38,,19,,9,17,3,2,,,,,,Realtime
+Dhanbad,,"Sardar Patel Nagar, Dhanbad - JSPCB",23.80569,86.44268,07-18-2026 21:00:00,2026,7,3,Monsoon,,74,,103,,,8,,24,,,,,,Realtime
+Jorapokhar,,"Tata Stadium, Jorapokhar - JSPCB",23.707909,86.41467,07-18-2026 21:00:00,2026,7,3,Monsoon,49,113,,8,,3,40,4,7,,,,,,Realtime
+Bagalkot,,"Vidayagiri, Bagalkot - KSPCB",16.172806,75.659694,07-18-2026 21:00:00,2026,7,3,Monsoon,32,51,,10,,1,23,10,18,,,,,,Realtime
+Bengaluru,,"Silk Board, Bengaluru - KSPCB",12.917348,77.622813,07-18-2026 21:00:00,2026,7,3,Monsoon,27,75,,9,,3,,1,19,,,,,,Realtime
+Bengaluru,,"BTM Layout, Bengaluru - CPCB",12.9135218,77.5950804,07-18-2026 21:00:00,2026,7,3,Monsoon,28,49,,24,,4,47,19,25,,,,,,Realtime
+Bengaluru,,"Hombegowda Nagar, Bengaluru - KSPCB",12.938539,77.5901,07-18-2026 21:00:00,2026,7,3,Monsoon,23,38,,18,,1,10,5,29,,,,,,Realtime
+Bengaluru,,"Jayanagar 5th Block, Bengaluru - KSPCB",12.920984,77.584908,07-18-2026 21:00:00,2026,7,3,Monsoon,35,47,,7,,1,18,22,45,,,,,,Realtime
+Yadgir,,"Collector Office, Yadgir - KSPCB",16.7602,77.1428,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,3,,16,,,,,,Realtime
+Kannur,,"Thavakkara, Kannur - Kerala PCB",11.875,75.3732,07-18-2026 21:00:00,2026,7,3,Monsoon,50,56,,13,,1,11,2,28,,,,,,Realtime
+Kollam,,"Polayathode, Kollam - Kerala PCB",8.8787,76.6073,07-18-2026 21:00:00,2026,7,3,Monsoon,44,49,,9,,1,16,3,34,,,,,,Realtime
+Thiruvananthapuram,,"Kariavattom, Thiruvananthapuram - Kerala PCB",8.5637,76.8865,07-18-2026 21:00:00,2026,7,3,Monsoon,42,63,,6,,0,22,7,31,,,,,,Realtime
+Thrissur,,"Corporation Ground, Thrissur - Kerala PCB",10.5324,76.2159,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,19,,29,,,,,,Realtime
+Bhopal,,"Paryavaran Parisar, Bhopal - MPPCB",23.210494,77.425409,07-18-2026 21:00:00,2026,7,3,Monsoon,31,59,,13,,5,12,32,22,,,,,,Realtime
+Panipat,,"Sector-18, Panipat - HSPCB",29.432304,76.972765,07-18-2026 21:00:00,2026,7,3,Monsoon,38,62,,7,,10,39,50,30,,,,,,Realtime
+Sonipat,,"Murthal, Sonipat - HSPCB",29.0272,77.0621,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,35,,70,,,,,,Realtime
+Yamuna Nagar,,"Gobind Pura, Yamuna Nagar - HSPCB",30.1480566,77.2893471,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,15,,67,,,,,,Realtime
+Baddi,,"HIMUDA Complex Phase-1, Baddi - HPPCB",30.943887,76.801991,07-18-2026 21:00:00,2026,7,3,Monsoon,56,120,,17,,8,52,17,12,,,,,,Realtime
+Pampore,,"Khrew, Pampore - JKPCC",34.031606,75.009712,07-18-2026 21:00:00,2026,7,3,Monsoon,26,37,,,,,,0,,,,,,,Realtime
+Kalaburagi,,"Mahatma Basaveswar Colony, Kalaburgi - KSPCB",17.336318,76.847397,07-18-2026 21:00:00,2026,7,3,Monsoon,25,33,,14,,2,29,3,14,,,,,,Realtime
+Karwar,,"KHB Colony, Karwar - KSPCB",14.816666,74.141003,07-18-2026 21:00:00,2026,7,3,Monsoon,46,52,,26,,4,33,19,17,,,,,,Realtime
+Koppal,,"Diwator Nagar, Koppal - KSPCB",15.34763,76.181767,07-18-2026 21:00:00,2026,7,3,Monsoon,,25,,31,,8,19,14,6,,,,,,Realtime
+Mangalore,,"Kadri, Mangalore - KSPCB",12.88925,74.853,07-18-2026 21:00:00,2026,7,3,Monsoon,52,67,,3,,1,,,37,,,,,,Realtime
+Bengaluru,,"Kasturi Nagar, Bengaluru - KSPCB",13.003872,77.664217,07-18-2026 21:00:00,2026,7,3,Monsoon,103,74,,28,,5,51,16,26,,,,,,Realtime
+Bengaluru,,"Sanegurava Halli, Bengaluru - KSPCB",12.990328,77.5431385,07-18-2026 21:00:00,2026,7,3,Monsoon,,54,,18,,,17,6,,,,,,,Realtime
+Bengaluru,,"Jigani, Bengaluru - KSPCB",12.7816279,77.6299145,07-18-2026 21:00:00,2026,7,3,Monsoon,40,53,,24,,4,39,18,29,,,,,,Realtime
+Bengaluru,,"Bapuji Nagar, Bengaluru - KSPCB",12.951913,77.539784,07-18-2026 21:00:00,2026,7,3,Monsoon,24,36,,26,,3,34,28,30,,,,,,Realtime
+Chamarajanagar,,"Urban, Chamarajanagar - KSPCB",11.55358,76.55521,07-18-2026 21:00:00,2026,7,3,Monsoon,32,45,,27,,2,24,4,27,,,,,,Realtime
+Mysuru,,"Hebbal 1st Stage, Mysuru - KSPCB",12.21041,76.37376,07-18-2026 21:00:00,2026,7,3,Monsoon,21,63,,21,,5,20,4,27,,,,,,Realtime
+Ramanagara,,"Vijay Nagar, Ramanagara - KSPCB",12.733409,77.298051,07-18-2026 21:00:00,2026,7,3,Monsoon,26,33,,,,,24,19,31,,,,,,Realtime
+Shivamogga,,"Vinoba Nagara, Shivamogga - KSPCB",13.94,75.555917,07-18-2026 21:00:00,2026,7,3,Monsoon,28,42,,24,,3,22,4,45,,,,,,Realtime
+Vijayapura,,"Ibrahimpur, Vijayapura - KSPCB",16.802639,75.722694,07-18-2026 21:00:00,2026,7,3,Monsoon,27,43,,11,,4,23,3,16,,,,,,Realtime
+Bhopal,,"Idgah Hills, Bhopal - MPPCB",23.264759,77.381568,07-18-2026 21:00:00,2026,7,3,Monsoon,43,103,,17,,3,5,5,16,,,,,,Realtime
+Gwalior,,"Maharaj Bada, Gwalior - MPPCB",26.200388,78.147714,07-18-2026 21:00:00,2026,7,3,Monsoon,45,58,,39,,1,70,,45,,,,,,Realtime
+Gwalior,,"Deen Dayal Nagar, Gwalior - MPPCB",26.259242,78.216432,07-18-2026 21:00:00,2026,7,3,Monsoon,77,91,,21,,8,58,6,59,,,,,,Realtime
+Gwalior,,"City Center, Gwalior - MPPCB",26.203442,78.193251,07-18-2026 21:00:00,2026,7,3,Monsoon,40,37,,17,,5,35,15,46,,,,,,Realtime
+Indore,,"Regional Park, Indore - IMC",22.678,75.8559,07-18-2026 21:00:00,2026,7,3,Monsoon,33,38,,,,,91,35,5,,,,,,Realtime
+Indore,,"Maguda Nagar, Indore - IMC",22.7524,75.8872,07-18-2026 21:00:00,2026,7,3,Monsoon,34,36,,3,,,20,19,12,,,,,,Realtime
+Jabalpur,,"Marhatal, Jabalpur - MPPCB",23.168606,79.932247,07-18-2026 21:00:00,2026,7,3,Monsoon,30,55,,23,,1,41,9,38,,,,,,Realtime
+Mumbai,,"Bandra Kurla Complex, Mumbai - MPCB",19.065931,72.862131,07-18-2026 21:00:00,2026,7,3,Monsoon,33,52,,2,,1,26,3,15,,,,,,Realtime
+Mumbai,,"Shivaji Nagar, Mumbai - BMC",19.060498,72.923356,07-18-2026 21:00:00,2026,7,3,Monsoon,32,49,,14,,5,18,2,6,,,,,,Realtime
+Mumbai,,"Malad West, Mumbai - IITM",19.19709,72.82204,07-18-2026 21:00:00,2026,7,3,Monsoon,25,74,,19,,3,49,15,5,,,,,,Realtime
+Mumbai,,"Mazgaon, Mumbai - IITM",18.96702,72.84214,07-18-2026 21:00:00,2026,7,3,Monsoon,35,70,,13,,2,26,12,14,,,,,,Realtime
+Mumbai,,"Chembur, Mumbai - MPCB",19.0364585,72.8954371,07-18-2026 21:00:00,2026,7,3,Monsoon,26,72,,10,,12,16,8,10,,,,,,Realtime
+Mumbai,,"Deonar, Mumbai - IITM",19.04946,72.923,07-18-2026 21:00:00,2026,7,3,Monsoon,27,107,,5,,12,71,3,14,,,,,,Realtime
+Mumbai,,"Chakala-Andheri East, Mumbai - IITM",19.11074,72.86084,07-18-2026 21:00:00,2026,7,3,Monsoon,24,58,,11,,17,2,3,11,,,,,,Realtime
+Mumbai,,"Kandivali West, Mumbai - BMC",19.215859,72.831718,07-18-2026 21:00:00,2026,7,3,Monsoon,25,34,,15,,2,10,1,11,,,,,,Realtime
+Nagpur,,"Mahal, Nagpur - MPCB",21.14472,79.107595,07-18-2026 21:00:00,2026,7,3,Monsoon,34,65,,14,,4,27,8,11,,,,,,Realtime
+Nagpur,,"Ambazari, Nagpur - MPCB",21.121801,79.04952,07-18-2026 21:00:00,2026,7,3,Monsoon,28,41,,11,,2,22,5,14,,,,,,Realtime
+Akola,,"Ramdaspeth, Akola - MPCB",20.719516,77.000253,07-18-2026 21:00:00,2026,7,3,Monsoon,32,46,,11,,8,18,5,41,,,,,,Realtime
+Amravati,,"Shri Shivaji Science College, Amravati - MPCB",20.939198,77.765701,07-18-2026 21:00:00,2026,7,3,Monsoon,28,49,,5,,5,20,4,16,,,,,,Realtime
+Amravati,,"Shivneri Colony, Amravati - MPCB",20.9402359,77.7895248,07-18-2026 21:00:00,2026,7,3,Monsoon,31,53,,7,,2,14,10,13,,,,,,Realtime
+Aurangabad,,"More Chowk Waluj, Aurangabad - MPCB",19.8389439,75.244448,07-18-2026 21:00:00,2026,7,3,Monsoon,50,50,,10,,7,42,30,19,,,,,,Realtime
+Aurangabad,,"MIDC Chilkalthana, Aurangabad - MPCB",19.87562,75.38731,07-18-2026 21:00:00,2026,7,3,Monsoon,,143,,,,,26,7,30,,,,,,Realtime
+Aurangabad,,"Rachnakar Colony, Aurangabad - MPCB",19.863756,75.321188,07-18-2026 21:00:00,2026,7,3,Monsoon,136,89,,20,,2,30,4,21,,,,,,Realtime
+Beed,,"Bir, Beed - MPCB",18.988474,75.753873,07-18-2026 21:00:00,2026,7,3,Monsoon,41,105,,12,,2,23,2,17,,,,,,Realtime
+Belapur,,"CBD Belapur, Belapur - MPCB",19.0243902,73.0406721,07-18-2026 21:00:00,2026,7,3,Monsoon,40,59,,19,,4,27,4,6,,,,,,Realtime
+Navi Mumbai,,"Tondare-Taloja, Navi Mumbai - MPCB",19.063,73.1209,07-18-2026 21:00:00,2026,7,3,Monsoon,34,64,,6,,7,7,2,1,,,,,,Realtime
+Navi Mumbai,,"Kopripada-Vashi, Navi Mumbai - MPCB",19.090337,73.014232,07-18-2026 21:00:00,2026,7,3,Monsoon,24,52,,13,,11,22,2,32,,,,,,Realtime
+Parbhani,,"Masoom Colony, Parbhani - MPCB",19.265594,76.761463,07-18-2026 21:00:00,2026,7,3,Monsoon,35,50,,37,,4,11,2,7,,,,,,Realtime
+Pimpri-Chinchwad,,"Savta Mali Nagar, Pimpri-Chinchwad - IITM",18.614767,73.799516,07-18-2026 21:00:00,2026,7,3,Monsoon,22,67,,24,,,28,,9,,,,,,Realtime
+Pimpri-Chinchwad,,"Bhosari, Pune - IITM",18.640051,73.848956,07-18-2026 21:00:00,2026,7,3,Monsoon,32,77,,25,,,30,,6,,,,,,Realtime
+Pimpri-Chinchwad,,"Gavalinagar, Pimpri Chinchwad - MPCB",18.63673,73.82487,07-18-2026 21:00:00,2026,7,3,Monsoon,37,59,,7,,1,11,1,13,,,,,,Realtime
+Pimpri-Chinchwad,,"Transport Nagar-Nigdi, Pune - IITM",18.664282,73.763966,07-18-2026 21:00:00,2026,7,3,Monsoon,20,,,16,,,41,,11,,,,,,Realtime
+Pimpri-Chinchwad,,"Thergaon, Pimpri Chinchwad - MPCB",18.616318,73.765797,07-18-2026 21:00:00,2026,7,3,Monsoon,59,71,,10,,6,52,2,16,,,,,,Realtime
+Pimpri-Chinchwad,,"Park Street Wakad, Pimpri Chinchwad - MPCB",18.59051,73.77946,07-18-2026 21:00:00,2026,7,3,Monsoon,44,59,,12,,,12,1,14,,,,,,Realtime
+Maihar,,"Sahilara, Maihar - KJS Cements",24.2613009,80.7231783,07-18-2026 21:00:00,2026,7,3,Monsoon,,37,,59,,,21,10,,,,,,,Realtime
+Mandideep,,"Sector-D Industrial Area, Mandideep - MPPCB",23.10844,77.511428,07-18-2026 21:00:00,2026,7,3,Monsoon,52,96,,29,,10,20,6,32,,,,,,Realtime
+Ratlam,,"Shasthri Nagar, Ratlam - IPCA Lab",23.331731,75.045981,07-18-2026 21:00:00,2026,7,3,Monsoon,39,,,36,,,,23,,,,,,,Realtime
+Sagar,,"Civil Lines, Sagar - MPPCB",23.838586,78.759431,07-18-2026 21:00:00,2026,7,3,Monsoon,41,56,,5,,4,32,6,30,,,,,,Realtime
+Satna,,"Bandhavgar Colony, Satna - Birla Cement",24.58434363,80.8549414,07-18-2026 21:00:00,2026,7,3,Monsoon,50,70,,13,,,17,18,59,,,,,,Realtime
+Ujjain,,"Mahashweta Nagar, Ujjain - MPPCB",23.1633321,75.800225,07-18-2026 21:00:00,2026,7,3,Monsoon,42,58,,6,,6,20,4,55,,,,,,Realtime
+Ahmednagar,,"Tarakpur, Ahmednagar - MPCB",19.10122,74.73339,07-18-2026 21:00:00,2026,7,3,Monsoon,32,68,,9,,7,11,10,30,,,,,,Realtime
+Nagpur,,"Ram Nagar, Nagpur - MPCB",21.143383,79.048912,07-18-2026 21:00:00,2026,7,3,Monsoon,33,45,,8,,5,10,4,11,,,,,,Realtime
+Nagpur,,"Opp GPO Civil Lines, Nagpur - MPCB",21.152875,79.0517531,07-18-2026 21:00:00,2026,7,3,Monsoon,31,49,,16,,5,49,4,7,,,,,,Realtime
+Nashik,,"Gangapur Road, Nashik - MPCB",20.0073285,73.7762427,07-18-2026 21:00:00,2026,7,3,Monsoon,45,47,,5,,3,22,3,15,,,,,,Realtime
+Nashik,,"Pandav Nagari, Nashik - MPCB",19.9591346,73.7788008,07-18-2026 21:00:00,2026,7,3,Monsoon,26,43,,4,,1,14,2,15,,,,,,Realtime
+Nashik,,"Hirawadi, Nashik - MPCB",20.021503,73.813844,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,28,,19,,,,,,Realtime
+Navi Mumbai,,"Nerul, Navi Mumbai - MPCB",19.008751,73.01662,07-18-2026 21:00:00,2026,7,3,Monsoon,22,,,9,,1,,,,,,,,,Realtime
+Navi Mumbai,,"Sanpada, Navi Mumbai - MPCB",19.0575752,73.0151367,07-18-2026 21:00:00,2026,7,3,Monsoon,31,46,,5,,3,7,4,22,,,,,,Realtime
+Navi Mumbai,,"Mahape, Navi Mumbai - MPCB",19.1135051,73.008978,07-18-2026 21:00:00,2026,7,3,Monsoon,32,71,,43,,1,,17,7,,,,,,Realtime
+Pune,,"Revenue Colony-Shivajinagar, Pune - IITM",18.530085,73.849598,07-18-2026 21:00:00,2026,7,3,Monsoon,18,42,,15,,,15,15,16,,,,,,Realtime
+Pune,,"Dhankawadi, Pune - IITM",18.459883,73.852193,07-18-2026 21:00:00,2026,7,3,Monsoon,28,55,,18,,,50,,4,,,,,,Realtime
+Pune,,"Hadapsar, Pune - IITM",18.501793,73.927532,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,64,,15,,,,,,Realtime
+Pune,,"Mhada Colony, Pune - IITM",18.57304,73.927715,07-18-2026 21:00:00,2026,7,3,Monsoon,40,60,,26,,,53,,13,,,,,,Realtime
+Pune,,"Katraj Dairy, Pune - MPCB",18.45445,73.854155,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,17,,40,,,,,,Realtime
+Pune,,"Panchawati_Pashan, Pune - IITM",18.536457,73.805454,07-18-2026 21:00:00,2026,7,3,Monsoon,31,59,,8,,,31,,5,,,,,,Realtime
+Pune,,"Savitribai Phule Pune University, Pune - MPCB",18.547056,73.826908,07-18-2026 21:00:00,2026,7,3,Monsoon,19,32,,7,,1,30,4,12,,,,,,Realtime
+Latur,,"Sawe Wadi, Latur - MPCB",18.39963,76.57452,07-18-2026 21:00:00,2026,7,3,Monsoon,24,30,,13,,4,20,4,19,,,,,,Realtime
+Mahad,,"Kamble Tarf Birwadi, Mahad - MPCB",18.1023399,73.4783687,07-18-2026 21:00:00,2026,7,3,Monsoon,51,80,,16,,5,23,15,31,,,,,,Realtime
+Mumbai,,"Sewri, Mumbai - BMC",19.000084,72.85673,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,21,,14,,,,,,Realtime
+Mumbai,,"Chhatrapati Shivaji Intl. Airport (T2), Mumbai - MPCB",19.10078,72.87462,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,26,,0,,7,,,,,,,Realtime
+Mumbai,,"Navy Nagar-Colaba, Mumbai - IITM",18.897756,72.81332,07-18-2026 21:00:00,2026,7,3,Monsoon,38,91,,97,,8,19,7,22,,,,,,Realtime
+Mumbai,,"Ghatkopar, Mumbai - BMC",19.083694,72.920967,07-18-2026 21:00:00,2026,7,3,Monsoon,23,88,,5,,4,22,1,30,,,,,,Realtime
+Mumbai,,"Kurla, Mumbai - MPCB",19.0863,72.8888,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,17,,28,,,,,,Realtime
+Mumbai,,"Siddharth Nagar-Worli, Mumbai - IITM",19.000083,72.813993,07-18-2026 21:00:00,2026,7,3,Monsoon,29,96,,21,,2,2,,9,,,,,,Realtime
+Mumbai,,"Khindipada-Bhandup West, Mumbai - IITM",19.1653323,72.922099,07-18-2026 21:00:00,2026,7,3,Monsoon,27,96,,,,,6,18,3,,,,,,Realtime
+Mumbai,,"Worli, Mumbai - MPCB",18.9936162,72.8128113,07-18-2026 21:00:00,2026,7,3,Monsoon,62,89,,10,,,28,3,5,,,,,,Realtime
+Boisar,,"Khaira, Boisar - MPCB",19.786089,72.757971,07-18-2026 21:00:00,2026,7,3,Monsoon,47,63,,22,,5,7,16,0,,,,,,Realtime
+Chandrapur,,"MIDC Khutala, Chandrapur - MPCB",19.9775302,79.2337086,07-18-2026 21:00:00,2026,7,3,Monsoon,21,37,,13,,2,39,9,23,,,,,,Realtime
+Dhule,,"Deopur, Dhule - MPCB",20.918946,74.776388,07-18-2026 21:00:00,2026,7,3,Monsoon,33,65,,9,,2,16,2,10,,,,,,Realtime
+Jalgaon,,"Prabhat Colony, Jalgaon - MPCB",21.001264,75.565602,07-18-2026 21:00:00,2026,7,3,Monsoon,27,65,,14,,3,42,1,30,,,,,,Realtime
+Kolhapur,,"Sinchan Bhavan, Kolhapur - MPCB",16.7143745,74.2426398,07-18-2026 21:00:00,2026,7,3,Monsoon,24,30,,17,,2,19,1,26,,,,,,Realtime
+Bhubaneswar,,"Patia, Bhubaneswar - OSPCB",20.34652,85.8163,07-18-2026 21:00:00,2026,7,3,Monsoon,38,69,,8,,2,52,8,39,,,,,,Realtime
+Bileipada,,"Tata Township, Bileipada - OSPCB",22.06156703,85.47409613,07-18-2026 21:00:00,2026,7,3,Monsoon,48,94,,16,,5,23,15,15,,,,,,Realtime
+Byasanagar,,"Ferro Chrome Colony, Byasanagar - OSPCB",20.94185,86.1151,07-18-2026 21:00:00,2026,7,3,Monsoon,27,66,,9,,1,41,6,37,,,,,,Realtime
+Cuttack,,"CDA Area, Cuttack - OSPCB",20.48891,85.84768,07-18-2026 21:00:00,2026,7,3,Monsoon,51,90,,11,,11,26,5,48,,,,,,Realtime
+Keonjhar,,"Jagamohanpur, Keonjhar - OSPCB",21.6439,85.599355,07-18-2026 21:00:00,2026,7,3,Monsoon,27,49,,13,,2,35,14,18,,,,,,Realtime
+Rairangpur,,"Divisional Forest Office, Rairangpur - OSPCB",22.265816,86.174829,07-18-2026 21:00:00,2026,7,3,Monsoon,15,51,,6,,3,6,7,8,,,,,,Realtime
+Rourkela,,"Raghunathpali, Rourkela - OSPCB",22.220833,84.809444,07-18-2026 21:00:00,2026,7,3,Monsoon,19,73,,15,,2,28,6,11,,,,,,Realtime
+Rourkela,,"Fertilizer Township, Rourkela - OSPCB",22.18972222,84.86277778,07-18-2026 21:00:00,2026,7,3,Monsoon,67,57,,11,,,16,11,,,,,,,Realtime
+Suakati,,"OMC Colony, Suakati - OSPCB",21.606865,85.510538,07-18-2026 21:00:00,2026,7,3,Monsoon,37,85,,18,,3,8,4,16,,,,,,Realtime
+Talcher,,"Talcher Coalfields,Talcher - OSPCB",20.9360711,85.1707021,07-18-2026 21:00:00,2026,7,3,Monsoon,,58,,46,,7,34,28,14,,,,,,Realtime
+Tensa,,"Barsua Iron Ore Mines, Tensa - OSPCB",21.869985,85.167016,07-18-2026 21:00:00,2026,7,3,Monsoon,14,28,,,,,29,33,15,,,,,,Realtime
+Puducherry,,"Jawahar Nagar, Puducherry - PPCC",11.9309,79.8027,07-18-2026 21:00:00,2026,7,3,Monsoon,20,30,,12,,4,17,8,49,,,,,,Realtime
+Amritsar,,"Golden Temple, Amritsar - PPCB",31.62,74.876512,07-18-2026 21:00:00,2026,7,3,Monsoon,106,109,,16,,7,26,14,24,,,,,,Realtime
+Bathinda,,"Hardev Nagar, Bathinda - PPCB",30.233011,74.907758,07-18-2026 21:00:00,2026,7,3,Monsoon,7,14,,10,,,62,16,,,,,,,Realtime
+Khanna,,"Kalal Majra, Khanna - PPCB",30.736056,76.209694,07-18-2026 21:00:00,2026,7,3,Monsoon,40,67,,28,,7,53,16,36,,,,,,Realtime
+Patiala,,"Model Town, Patiala - PPCB",30.349388,76.366642,07-18-2026 21:00:00,2026,7,3,Monsoon,31,44,,17,,6,10,10,51,,,,,,Realtime
+Rupnagar,,"Ratanpura, Rupnagar - Ambuja Cements",31.0325454,76.5623046,07-18-2026 21:00:00,2026,7,3,Monsoon,71,49,,26,,,54,12,,,,,,,Realtime
+Shillong,,"Lumpyngngad, Shillong - Meghalaya PCB",25.5586,91.8985,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,0,,0,9,11,24,,,,,,Realtime
+Aizawl,,"Sikulpuikawn, Aizawl - Mizoram PCB",23.7176342,92.7192841,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,1,,0,3,14,6,,,,,,Realtime
+Kohima,,"PWD Junction, Kohima - NPCB",25.6635413,94.0989878,07-18-2026 21:00:00,2026,7,3,Monsoon,12,11,,3,,1,5,47,,,,,,,Realtime
+Angul,,"Hakimapada, Angul - OSPCB",20.832874,85.104082,07-18-2026 21:00:00,2026,7,3,Monsoon,39,89,,10,,3,54,13,34,,,,,,Realtime
+Balasore,,"Kalidaspur, Balasore - OSPCB",21.51161,86.89088,07-18-2026 21:00:00,2026,7,3,Monsoon,41,71,,11,,5,44,5,28,,,,,,Realtime
+Barbil,,"Forest Office, Barbil - OSPCB",22.1166054,85.3945546,07-18-2026 21:00:00,2026,7,3,Monsoon,29,55,,4,,2,9,6,21,,,,,,Realtime
+Bhubaneswar,,"Lingraj Mandir, Bhubaneswar - OSPCB",20.24079,85.836784,07-18-2026 21:00:00,2026,7,3,Monsoon,17,19,,9,,4,43,5,70,,,,,,Realtime
+Jaipur,,"Shastri Nagar, Jaipur - RSPCB",26.9502929,75.730943,07-18-2026 21:00:00,2026,7,3,Monsoon,65,65,,36,,8,46,12,46,,,,,,Realtime
+Jaisalmer,,"Sadar Bazar, Jaisalmer - RSPCB",26.912329,70.909168,07-18-2026 21:00:00,2026,7,3,Monsoon,66,148,,9,,,16,4,17,,,,,,Realtime
+Jalore,,"Mudtra Sili, Jalore - RSPCB",25.344694,72.626208,07-18-2026 21:00:00,2026,7,3,Monsoon,52,103,,9,,4,21,3,49,,,,,,Realtime
+Jhalawar,,"Rajlaxmi Nagar, Jhalawar - RSPCB",24.588397,76.172782,07-18-2026 21:00:00,2026,7,3,Monsoon,67,79,,28,,,20,6,21,,,,,,Realtime
+Jhunjhunu,,"Indra Nagar, Jhunjhunu - RSPCB",28.108988,75.386577,07-18-2026 21:00:00,2026,7,3,Monsoon,18,46,,11,,11,17,3,96,,,,,,Realtime
+Jodhpur,,"Collectorate, Jodhpur - RSPCB",26.268249,73.0193853,07-18-2026 21:00:00,2026,7,3,Monsoon,58,84,,18,,5,54,8,30,,,,,,Realtime
+Jodhpur,,"Digari Kalan, Jodhpur - RSPCB",26.29581,73.082283,07-18-2026 21:00:00,2026,7,3,Monsoon,37,77,,16,,,13,2,54,,,,,,Realtime
+Bundi,,"New Colony, Bundi - RSPCB",25.435774,75.644272,07-18-2026 21:00:00,2026,7,3,Monsoon,33,72,,38,,8,11,4,37,,,,,,Realtime
+Chittorgarh,,"Shastri Nagar, Chittorgarh - RSPCB",24.892047,74.623527,07-18-2026 21:00:00,2026,7,3,Monsoon,70,93,,14,,,3,4,61,,,,,,Realtime
+Churu,,"Subash Chowk, Churu - RSPCB",28.296139,74.961696,07-18-2026 21:00:00,2026,7,3,Monsoon,12,92,,7,,7,19,4,54,,,,,,Realtime
+Dholpur,,"Raja Ganj, Dholpur - RSPCB",26.699557,77.898881,07-18-2026 21:00:00,2026,7,3,Monsoon,171,110,,8,,8,39,7,39,,,,,,Realtime
+Dungarpur,,"Bhoiwada, Dungarpur - RSPCB",23.837789,73.714926,07-18-2026 21:00:00,2026,7,3,Monsoon,58,55,,2,,,21,5,39,,,,,,Realtime
+Jaipur,,"Sector-2 Murlipura, Jaipur - RSPCB",26.960669,75.771817,07-18-2026 21:00:00,2026,7,3,Monsoon,40,88,,24,,8,50,3,27,,,,,,Realtime
+Thane,,"Kasarvadavali, Thane - MPCB",19.26777,72.97182,07-18-2026 21:00:00,2026,7,3,Monsoon,34,67,,12,,2,12,4,25,,,,,,Realtime
+Thane,,"Upvan Fort, Thane - MPCB",19.222279,72.957979,07-18-2026 21:00:00,2026,7,3,Monsoon,25,43,,14,,3,13,1,31,,,,,,Realtime
+Ulhasnagar,,"Sidhi Vinayak Nagar, Ulhasnagar - MPCB",19.235581,73.159121,07-18-2026 21:00:00,2026,7,3,Monsoon,40,55,,23,,7,20,3,28,,,,,,Realtime
+Ulhasnagar,,"Vithalwadi, Ulhasnagar - MPCB",19.2307571,73.155192,07-18-2026 21:00:00,2026,7,3,Monsoon,71,99,,12,,1,15,2,14,,,,,,Realtime
+Virar,,"Bolinj, Virar - MPCB",19.445821,72.7988231,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,37,,23,,,,,,Realtime
+Byrnihat,,"Tamulikuchi, Byrnihat - Meghalaya PCB",26.079047,91.875185,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,32,,,,,,,,Realtime
+Jodhpur,,"Samrat Ashok Udhyan, Jodhpur - RSPCB",26.253384,72.976571,07-18-2026 21:00:00,2026,7,3,Monsoon,53,91,,7,,5,15,4,28,,,,,,Realtime
+Kota,,"Shrinath Puram, Kota - RSPCB",25.14389,75.821256,07-18-2026 21:00:00,2026,7,3,Monsoon,61,67,,14,,7,28,8,10,,,,,,Realtime
+Kota,,"Dhanmandi, Kota - RSPCB",25.16409,75.858137,07-18-2026 21:00:00,2026,7,3,Monsoon,46,71,,19,,4,25,4,32,,,,,,Realtime
+Nagaur,,"Karni Colony, Nagaur - RSPCB",27.213494,73.734444,07-18-2026 21:00:00,2026,7,3,Monsoon,33,57,,5,,6,15,3,25,,,,,,Realtime
+Pali,,"Indira Colony Vistar, Pali - RSPCB",25.771061,73.340227,07-18-2026 21:00:00,2026,7,3,Monsoon,86,115,,24,,6,22,12,37,,,,,,Realtime
+Pratapgarh,,"Pragati Nagar, Pratapgarh - RSPCB",24.041198,74.780702,07-18-2026 21:00:00,2026,7,3,Monsoon,60,81,,9,,2,20,2,51,,,,,,Realtime
+Rajsamand,,"Dhoinda, Rajsamand - RSPCB",25.03636,73.883502,07-18-2026 21:00:00,2026,7,3,Monsoon,65,88,,7,,,15,7,66,,,,,,Realtime
+Sawai Madhopur,,"Sahu Nagar, Sawai Madhopur - RSPCB",26.031443,76.359327,07-18-2026 21:00:00,2026,7,3,Monsoon,28,67,,12,,,26,4,53,,,,,,Realtime
+Sikar,,"Radhakishan Pura, Sikar - RSPCB",27.608912,75.153302,07-18-2026 21:00:00,2026,7,3,Monsoon,67,92,,11,,12,19,3,68,,,,,,Realtime
+Sirohi,,"Vedhaynath Colony, Sirohi - RSPCB",24.885261,72.857549,07-18-2026 21:00:00,2026,7,3,Monsoon,,108,,7,,6,8,5,18,,,,,,Realtime
+Ajmer,,"Civil Lines,  Ajmer - RSPCB",26.470859,74.646594,07-18-2026 21:00:00,2026,7,3,Monsoon,62,95,,34,,7,27,,27,,,,,,Realtime
+Barmer,,"Railway Colony, Barmer - RSPCB",25.747299,71.393989,07-18-2026 21:00:00,2026,7,3,Monsoon,46,137,,9,,4,15,3,50,,,,,,Realtime
+Bhilwara,,"Pratap Nagar, Bhilwara - RSPCB",25.339605,74.618883,07-18-2026 21:00:00,2026,7,3,Monsoon,68,99,,18,,13,49,9,39,,,,,,Realtime
+Bhiwadi,,"Vasundhara Nagar_UIT, Bhiwadi - RSPCB",28.207266,76.829265,07-18-2026 21:00:00,2026,7,3,Monsoon,24,46,,17,,8,20,16,33,,,,,,Realtime
+Tonk,,"Shastri Nagar, Tonk - RSPCB",26.159933,75.780517,07-18-2026 21:00:00,2026,7,3,Monsoon,48,68,,2,,4,33,2,52,,,,,,Realtime
+Udaipur,,"Ashok Nagar, Udaipur - RSPCB",24.5886166,73.6321397,07-18-2026 21:00:00,2026,7,3,Monsoon,105,79,,15,,6,33,10,8,,,,,,Realtime
+Gangtok,,"Zero Point GICI, Gangtok - SSPCB",27.33853,88.614099,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,8,,1,6,1,23,,,,,,Realtime
+Chennai,,"Kodungaiyur, Chennai - TNPCB",13.1278,80.2642,07-18-2026 21:00:00,2026,7,3,Monsoon,51,73,,13,,4,29,6,29,,,,,,Realtime
+Chennai,,"Manali Village, Chennai - TNPCB",13.1662,80.2584,07-18-2026 21:00:00,2026,7,3,Monsoon,27,,,15,,3,38,16,77,,,,,,Realtime
+Chennai,,"Manali, Chennai - CPCB",13.164544,80.26285,07-18-2026 21:00:00,2026,7,3,Monsoon,36,66,,10,,6,33,10,9,,,,,,Realtime
+Chennai,,"Arumbakkam, Chennai - TNPCB",13.0664,80.2112,07-18-2026 21:00:00,2026,7,3,Monsoon,32,84,,21,,5,,1,,,,,,,Realtime
+Chennai,,"Velachery Res. Area, Chennai - CPCB",13.0052189,80.2398125,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,,,10,,,,,,Realtime
+Coimbatore,,"SIDCO Kurichi, Coimbatore - TNPCB",10.942451,76.978996,07-18-2026 21:00:00,2026,7,3,Monsoon,37,13,,23,,1,12,26,20,,,,,,Realtime
+Jhansi,,"Shivaji Nagar, Jhansi - UPPCB",25.4547,78.6039,07-18-2026 21:00:00,2026,7,3,Monsoon,55,60,,6,,4,9,20,7,,,,,,Realtime
+Kanpur,,"Nehru Nagar, Kanpur - UPPCB",26.4703136,80.3229863,07-18-2026 21:00:00,2026,7,3,Monsoon,12,11,,47,,,52,12,5,,,,,,Realtime
+Kanpur,,"NSI Kalyanpur, Kanpur - UPPCB",26.509954,80.249612,07-18-2026 21:00:00,2026,7,3,Monsoon,15,35,,31,,2,27,23,21,,,,,,Realtime
+Kanpur,,"FTI Kidwai Nagar, Kanpur - UPPCB",26.428282,80.327067,07-18-2026 21:00:00,2026,7,3,Monsoon,24,28,,27,,3,34,17,11,,,,,,Realtime
+Khurja,,"Kalindi Kunj, Khurja - UPPCB",28.2348927,77.8683002,07-18-2026 21:00:00,2026,7,3,Monsoon,13,,,12,,1,40,10,28,,,,,,Realtime
+Lucknow,,"Kendriya Vidyalaya, Lucknow - CPCB",26.906111,80.948222,07-18-2026 21:00:00,2026,7,3,Monsoon,30,31,,29,,10,28,7,43,,,,,,Realtime
+Lucknow,,"Kukrail Picnic Spot-1, Lucknow - UPPCB",26.90723,80.98579,07-18-2026 21:00:00,2026,7,3,Monsoon,30,27,,32,,6,15,7,40,,,,,,Realtime
+Lucknow,,"Gomti Nagar, Lucknow - UPPCB",26.86812,81.005119,07-18-2026 21:00:00,2026,7,3,Monsoon,14,13,,9,,,38,13,40,,,,,,Realtime
+Lucknow,,"Talkatora District Industries Center, Lucknow - CPCB",26.83399722,80.8917361,07-18-2026 21:00:00,2026,7,3,Monsoon,36,40,,23,,9,35,15,50,,,,,,Realtime
+Gummidipoondi,,"Anthoni Pillai Nagar, Gummidipoondi - TNPCB",13.4127,80.1081,07-18-2026 21:00:00,2026,7,3,Monsoon,118,98,,20,,1,,20,,,,,,,Realtime
+Madurai,,"Uchapatti, Madurai - TNPCB",9.865935,78.022669,07-18-2026 21:00:00,2026,7,3,Monsoon,,73,,,,9,22,53,1,,,,,,Realtime
+Thoothukudi,,"Meelavittan, Thoothukudi - TNPCB",8.816428,78.099039,07-18-2026 21:00:00,2026,7,3,Monsoon,,58,,15,,,29,10,32,,,,,,Realtime
+Hyderabad,,"Ramachandrapuram, Hyderabad - TSPCB",17.528544,78.286195,07-18-2026 21:00:00,2026,7,3,Monsoon,34,57,,13,,3,22,15,26,,,,,,Realtime
+Hyderabad,,"IDA Pashamylaram, Hyderabad - TSPCB",17.5316895,78.218939,07-18-2026 21:00:00,2026,7,3,Monsoon,20,38,,25,,1,15,12,22,,,,,,Realtime
+Hyderabad,,"ICRISAT Patancheru, Hyderabad - TSPCB",17.5184,78.278777,07-18-2026 21:00:00,2026,7,3,Monsoon,18,32,,9,,2,17,5,26,,,,,,Realtime
+Hyderabad,,"Somajiguda, Hyderabad - TSPCB",17.417094,78.457437,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,13,,3,59,12,28,,,,,,Realtime
+Hyderabad,,"Central University, Hyderabad - TSPCB",17.460103,78.334361,07-18-2026 21:00:00,2026,7,3,Monsoon,15,18,,13,,2,7,5,10,,,,,,Realtime
+Agra,,"Shahjahan Garden, Agra - UPPCB",27.169338,78.03582,07-18-2026 21:00:00,2026,7,3,Monsoon,74,58,,16,,1,20,45,1,,,,,,Realtime
+Agra,,"Rohta, Agra - UPPCB",27.106972,78.000111,07-18-2026 21:00:00,2026,7,3,Monsoon,24,37,,13,,5,15,6,14,,,,,,Realtime
+Agra,,"Sanjay Palace, Agra - UPPCB",27.19865833,78.00598056,07-18-2026 21:00:00,2026,7,3,Monsoon,93,100,,7,,,24,12,7,,,,,,Realtime
+Agra,,"Shastripuram, Agra - UPPCB",27.19862,77.92066,07-18-2026 21:00:00,2026,7,3,Monsoon,32,31,,18,,3,13,12,39,,,,,,Realtime
+Agra,,"Sector-3B Avas Vikas Colony, Agra - UPPCB",27.19412,77.96237,07-18-2026 21:00:00,2026,7,3,Monsoon,35,49,,28,,7,10,15,15,,,,,,Realtime
+Baghpat,,"Sardar Patel Inter College, Baghpat - UPPCB",28.964949,77.278761,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,12,,2,16,10,21,,,,,,Realtime
+Bareilly,,"Rajendra Nagar, Bareilly - UPPCB",28.38910936,79.42963708,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,10,,1,17,1,13,,,,,,Realtime
+Bareilly,,"Civil Lines, Bareilly - UPPCB",28.359581,79.414455,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,9,,3,29,,41,,,,,,Realtime
+Firozabad,,"Nagla Bhau, Firozabad - UPPCB",27.168897,78.37696,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,24,,11,,,,,,Realtime
+Firozabad,,"Vibhab Nagar, Firozabad - UPPCB",27.1594,78.3953,07-18-2026 21:00:00,2026,7,3,Monsoon,22,31,,14,,6,7,1,0,,,,,,Realtime
+Ghaziabad,,"Indirapuram, Ghaziabad - UPPCB",28.646233,77.358075,07-18-2026 21:00:00,2026,7,3,Monsoon,19,33,,28,,12,67,18,20,,,,,,Realtime
+Ghaziabad,,"Govindpuram, Ghaziabad - UPPCB",28.694528,77.494705,07-18-2026 21:00:00,2026,7,3,Monsoon,9,12,,11,,5,28,2,31,,,,,,Realtime
+Ghaziabad,,"Sanjay Nagar, Ghaziabad - UPPCB",28.685382,77.453839,07-18-2026 21:00:00,2026,7,3,Monsoon,26,24,,24,,9,33,5,27,,,,,,Realtime
+Ghaziabad,,"Vasundhara, Ghaziabad - UPPCB",28.6603346,77.3572563,07-18-2026 21:00:00,2026,7,3,Monsoon,21,20,,25,,12,60,7,24,,,,,,Realtime
+Gorakhpur,,"Madan Mohan Malaviya University of Technology, Gorakhpur - UPPCB",26.730136,83.433859,07-18-2026 21:00:00,2026,7,3,Monsoon,,75,,11,,1,5,41,18,,,,,,Realtime
+Greater Noida,,"Knowledge Park - V, Greater Noida - UPPCB",28.557054,77.453663,07-18-2026 21:00:00,2026,7,3,Monsoon,15,36,,28,,9,16,8,25,,,,,,Realtime
+Greater Noida,,"Knowledge Park - III, Greater Noida - UPPCB",28.47272,77.482,07-18-2026 21:00:00,2026,7,3,Monsoon,9,20,,25,,11,26,5,19,,,,,,Realtime
+Hapur,,"Anand Vihar, Hapur - UPPCB",28.725645,77.749675,07-18-2026 21:00:00,2026,7,3,Monsoon,6,13,,11,,1,15,8,8,,,,,,Realtime
+Lucknow,,"Lalbagh, Lucknow - CPCB",26.8458805,80.9365541,07-18-2026 21:00:00,2026,7,3,Monsoon,,29,,28,,11,37,6,35,,,,,,Realtime
+Mathura,,"Pali Dungra, Mathura - UPPCB",27.410954,77.550619,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,1,,1,16,1,19,,,,,,Realtime
+Meerut,,"Jai Bhim Nagar, Meerut - UPPCB",28.9535882,77.7622941,07-18-2026 21:00:00,2026,7,3,Monsoon,,20,,10,,9,85,10,29,,,,,,Realtime
+Meerut,,"Ganga Nagar, Meerut - UPPCB",28.999264,77.7590354,07-18-2026 21:00:00,2026,7,3,Monsoon,11,30,,25,,9,36,18,34,,,,,,Realtime
+Moradabad,,"Transport Nagar, Moradabad - UPPCB",28.802625,78.753728,07-18-2026 21:00:00,2026,7,3,Monsoon,24,30,,24,,5,45,18,32,,,,,,Realtime
+Moradabad,,"Eco Herbal Park, Moradabad - UPPCB",28.840739,78.697531,07-18-2026 21:00:00,2026,7,3,Monsoon,38,44,,20,,10,15,8,27,,,,,,Realtime
+Moradabad,,"Employment Office, Moradabad - UPPCB",28.88528,78.7388,07-18-2026 21:00:00,2026,7,3,Monsoon,42,37,,23,,3,16,28,24,,,,,,Realtime
+Moradabad,,"Buddhi Vihar, Moradabad - UPPCB",28.83526,78.7446,07-18-2026 21:00:00,2026,7,3,Monsoon,24,35,,29,,5,33,24,30,,,,,,Realtime
+Moradabad,,"Kashiram Nagar, Moradabad - UPPCB",28.849399,78.742362,07-18-2026 21:00:00,2026,7,3,Monsoon,22,40,,24,,4,31,91,10,,,,,,Realtime
+Varanasi,,"Bhelupur, Varanasi - UPPCB",25.301778,82.996789,07-18-2026 21:00:00,2026,7,3,Monsoon,17,42,,8,,1,10,28,5,,,,,,Realtime
+Varanasi,,"IESD Banaras Hindu University, Varanasi - UPPCB",25.262326,82.995408,07-18-2026 21:00:00,2026,7,3,Monsoon,14,34,,2,,9,3,,5,,,,,,Realtime
+Varanasi,,"Ardhali Bazar, Varanasi - UPPCB",25.3505986,82.9083074,07-18-2026 21:00:00,2026,7,3,Monsoon,52,65,,41,,,17,12,26,,,,,,Realtime
+Dehradun,,"Doon University, Dehradun - UKPCB",30.269444,78.044167,07-18-2026 21:00:00,2026,7,3,Monsoon,12,16,,2,,,14,1,4,,,,,,Realtime
+Rishikesh,,"Shivaji Nagar, Rishikesh - UKPCB",30.075911,78.2859547,07-18-2026 21:00:00,2026,7,3,Monsoon,2,13,,7,,,37,1,9,,,,,,Realtime
+Asansol,,"Mahabir Colliery, Asansol - WBPCB",23.618183,87.105718,07-18-2026 21:00:00,2026,7,3,Monsoon,24,34,,2,,0,40,8,15,,,,,,Realtime
+Asansol,,"Evelyn Lodge, Asansol - WBPCB",23.697936,86.944395,07-18-2026 21:00:00,2026,7,3,Monsoon,17,27,,14,,4,6,76,22,,,,,,Realtime
+Hyderabad,,"New Malakpet, Hyderabad - TSPCB",17.37206,78.50864,07-18-2026 21:00:00,2026,7,3,Monsoon,34,53,,14,,3,37,10,26,,,,,,Realtime
+Hyderabad,,"Zoo Park, Hyderabad - TSPCB",17.349694,78.451437,07-18-2026 21:00:00,2026,7,3,Monsoon,34,36,,7,,2,23,2,23,,,,,,Realtime
+Hyderabad,,"Nacharam_TSIIC IALA, Hyderabad - TSPCB",17.429398,78.569354,07-18-2026 21:00:00,2026,7,3,Monsoon,42,58,,14,,3,21,10,25,,,,,,Realtime
+Hyderabad,,"IITH Kandi, Hyderabad - TSPCB",17.585705,78.126199,07-18-2026 21:00:00,2026,7,3,Monsoon,37,57,,15,,3,32,11,26,,,,,,Realtime
+Hyderabad,,"ECIL Kapra, Hyderabad - TSPCB",17.470431,78.566959,07-18-2026 21:00:00,2026,7,3,Monsoon,33,53,,14,,4,23,7,34,,,,,,Realtime
+Hyderabad,,"Kompally Municipal Office, Hyderabad - TSPCB",17.544899,78.486949,07-18-2026 21:00:00,2026,7,3,Monsoon,36,58,,16,,3,21,11,25,,,,,,Realtime
+Hyderabad,,"Sanathnagar, Hyderabad - TSPCB",17.4559458,78.4332152,07-18-2026 21:00:00,2026,7,3,Monsoon,25,,,38,,,36,9,16,,,,,,Realtime
+Agra,,"Manoharpur, Agra - UPPCB",27.23711,78.01936,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,21,,5,,,,,,Realtime
+Muzaffarnagar,,"New Mandi, Muzaffarnagar - UPPCB",29.4723508,77.7194031,07-18-2026 21:00:00,2026,7,3,Monsoon,,34,,27,,2,33,14,28,,,,,,Realtime
+Noida,,"Sector - 125, Noida - UPPCB",28.5447608,77.3231257,07-18-2026 21:00:00,2026,7,3,Monsoon,,19,,60,,21,55,5,14,,,,,,Realtime
+Noida,,"Sector-116, Noida - UPPCB",28.56923,77.393848,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,52,25,21,,,,,,Realtime
+Noida,,"Sector - 62, Noida - IITM",28.6245479,77.3577104,07-18-2026 21:00:00,2026,7,3,Monsoon,17,19,,14,,,14,,32,,,,,,Realtime
+Prayagraj,,"Jhunsi, Prayagraj - UPPCB",25.425602,81.917152,07-18-2026 21:00:00,2026,7,3,Monsoon,22,24,,6,,6,14,18,49,,,,,,Realtime
+Raebareli,,"Anand Nagar, Raebareli - UPPCB",26.219512,81.237648,07-18-2026 21:00:00,2026,7,3,Monsoon,40,57,,16,,11,83,14,56,,,,,,Realtime
+Raebareli,,"Indira Nagar, Raebareli - NTPC Unchahar",26.207781,81.245571,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,44,,9,,,,,,Realtime
+Asansol,,"Asansol Court Area, Asansol - WBPCB",23.685297,86.945968,07-18-2026 21:00:00,2026,7,3,Monsoon,44,38,,30,,3,28,12,32,,,,,,Realtime
+Asansol,,"Trivenidevi Bhalotia College, Asansol - WBPCB",23.616515,87.119133,07-18-2026 21:00:00,2026,7,3,Monsoon,19,19,,7,,5,38,30,8,,,,,,Realtime
+Barrackpore,,"SVSPA Campus, Barrackpore - WBPCB",22.7605581,88.3617589,07-18-2026 21:00:00,2026,7,3,Monsoon,37,51,,14,,6,38,11,8,,,,,,Realtime
+Durgapur,,"PCBL Residential Complex, Durgapur - WBPCB",23.508764,87.35444,07-18-2026 21:00:00,2026,7,3,Monsoon,24,30,,63,,2,20,11,2,,,,,,Realtime
+Durgapur,,"Mahishkapur Road_B-Zone, Durgapur - WBPCB",23.567923,87.306843,07-18-2026 21:00:00,2026,7,3,Monsoon,37,52,,5,,3,,17,29,,,,,,Realtime
+Durgapur,,"Womens College_City Center, Durgapur - WBPCB",23.549395,87.300496,07-18-2026 21:00:00,2026,7,3,Monsoon,38,64,,36,,2,33,12,19,,,,,,Realtime
+Haldia,,"Priyambada Housing Estate, Haldia - WBPCB",22.06047,88.109737,07-18-2026 21:00:00,2026,7,3,Monsoon,27,50,,15,,4,30,13,21,,,,,,Realtime
+Howrah,,"Botanical Garden, Howrah - WBPCB",22.554954,88.292568,07-18-2026 21:00:00,2026,7,3,Monsoon,41,62,,13,,2,15,9,11,,,,,,Realtime
+Howrah,,"Dasnagar, Howrah - WBPCB",22.6025571,88.3105664,07-18-2026 21:00:00,2026,7,3,Monsoon,35,49,,6,,1,31,11,41,,,,,,Realtime
+Kolkata,,"Victoria, Kolkata - WBPCB",22.5448082,88.3403691,07-18-2026 21:00:00,2026,7,3,Monsoon,80,96,,23,,8,26,14,57,,,,,,Realtime
+Kolkata,,"Fort William, Kolkata - WBPCB",22.55664,88.342674,07-18-2026 21:00:00,2026,7,3,Monsoon,37,39,,20,,9,15,5,27,,,,,,Realtime
+Kolkata,,"Rabindra Sarobar, Kolkata - WBPCB",22.51106,88.35142,07-18-2026 21:00:00,2026,7,3,Monsoon,27,39,,23,,7,23,7,7,,,,,,Realtime
+Kolkata,,"Ballygunge, Kolkata - WBPCB",22.5367507,88.3638022,07-18-2026 21:00:00,2026,7,3,Monsoon,44,39,,23,,7,12,6,27,,,,,,Realtime
+Kolkata,,"Rabindra Bharati University, Kolkata - WBPCB",22.627847,88.380669,07-18-2026 21:00:00,2026,7,3,Monsoon,24,46,,59,,7,45,9,20,,,,,,Realtime
+Muzaffarpur,,"Buddha Colony, Muzaffarpur - BSPCB",26.11442,85.39813,07-18-2026 21:00:00,2026,7,3,Monsoon,62,57,,21,,7,18,4,32,,,,,,Realtime
+Patna,,"Govt. High School Shikarpur, Patna - BSPCB",25.592539,85.227158,07-18-2026 21:00:00,2026,7,3,Monsoon,71,70,,12,,6,64,13,73,,,,,,Realtime
+Patna,,"Rajbansi Nagar, Patna - BSPCB",25.599486,85.113666,07-18-2026 21:00:00,2026,7,3,Monsoon,30,42,,30,,3,39,8,28,,,,,,Realtime
+Korba,,"Urja Nagar, Korba - CECB",22.348441,82.549611,07-18-2026 21:00:00,2026,7,3,Monsoon,16,23,,6,,1,25,11,2,,,,,,Realtime
+Guwahati,,"IITG, Guwahati - PCBA",26.2028636,91.70046436,07-18-2026 21:00:00,2026,7,3,Monsoon,24,22,,2,,5,6,39,8,,,,,,Realtime
+Nagaon,,"Christianpatty, Nagaon - PCBA",26.349082,92.68449,07-18-2026 21:00:00,2026,7,3,Monsoon,58,51,,1,,4,17,10,9,,,,,,Realtime
+Hajipur,,"Industrial Area, Hajipur - BSPCB",25.697189,85.2459,07-18-2026 21:00:00,2026,7,3,Monsoon,59,55,,10,,15,44,8,34,,,,,,Realtime
+Kishanganj,,"SDM Office_Khagra, Kishanganj - BSPCB",26.0881305,87.93840336,07-18-2026 21:00:00,2026,7,3,Monsoon,61,64,,7,,3,14,10,33,,,,,,Realtime
+Manguraha,,"Forest Rest House, Manguraha - BSPCB",27.308328,84.531742,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,1,31,17,31,,,,,,Realtime
+Motihari,,"Gandak Colony, Motihari - BSPCB",26.63086,84.90051,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,12,,57,,,,,,Realtime
+Sivasagar,,"Girls College, Sivasagar - PCBA",26.987634,94.636574,07-18-2026 21:00:00,2026,7,3,Monsoon,13,16,,10,,7,19,8,30,,,,,,Realtime
+Vijayawada,,"Rajiv Nagar, Vijayawada - APPCB",16.554731,80.64911,07-18-2026 21:00:00,2026,7,3,Monsoon,64,65,,20,,5,21,17,23,,,,,,Realtime
+Vijayawada,,"Rajiv Gandhi Park, Vijayawada - APPCB",16.509717,80.612222,07-18-2026 21:00:00,2026,7,3,Monsoon,64,66,,21,,5,25,15,40,,,,,,Realtime
+Buxar,,"Charitra Van, Buxar - BSPCB",25.56752,83.966379,07-18-2026 21:00:00,2026,7,3,Monsoon,46,39,,10,,3,25,33,38,,,,,,Realtime
+Gaya,,"SFTI Kusdihra, Gaya - BSPCB",24.762518,84.982348,07-18-2026 21:00:00,2026,7,3,Monsoon,27,36,,23,,5,19,9,26,,,,,,Realtime
+Anantapur,,"Gulzarpet, Anantapur - APPCB",14.675886,77.593027,07-18-2026 21:00:00,2026,7,3,Monsoon,114,104,,15,,2,27,11,39,,,,,,Realtime
+Delhi,,"Sirifort, Delhi - CPCB",28.5504249,77.2159377,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,19,,7,11,20,11,,,,,,Realtime
+Delhi,,"Mandir Marg, Delhi - DPCC",28.636429,77.201067,07-18-2026 21:00:00,2026,7,3,Monsoon,19,46,,,,6,91,12,13,,,,,,Realtime
+Delhi,,"Pusa, Delhi - DPCC",28.639652,77.146275,07-18-2026 21:00:00,2026,7,3,Monsoon,18,36,,28,,10,88,12,7,,,,,,Realtime
+Ahmedabad,,"SVPI Airport Hansol, Ahmedabad - IITM",23.076793,72.627874,07-18-2026 21:00:00,2026,7,3,Monsoon,41,99,,21,,5,31,4,15,,,,,,Realtime
+Ahmedabad,,"Rakhial, Ahmedabad - IITM",23.016834,72.625775,07-18-2026 21:00:00,2026,7,3,Monsoon,60,93,,12,,7,85,13,5,,,,,,Realtime
+Charkhi Dadri,,"Mini Secretariat, Charkhi Dadri - HSPCB",28.593883,76.270653,07-18-2026 21:00:00,2026,7,3,Monsoon,70,45,,15,,6,13,10,31,,,,,,Realtime
+Dharuhera,,"Municipal Corporation Office, Dharuhera -  HSPCB",28.2068,76.7997,07-18-2026 21:00:00,2026,7,3,Monsoon,58,55,,30,,7,72,11,35,,,,,,Realtime
+Delhi,,"Jawaharlal Nehru Stadium, Delhi - DPCC",28.58028,77.233829,07-18-2026 21:00:00,2026,7,3,Monsoon,33,49,,14,,42,34,7,21,,,,,,Realtime
+Gandhinagar,,"IIPHG Lekawada, Gandhinagar - IITM",23.243639,72.68994,07-18-2026 21:00:00,2026,7,3,Monsoon,38,,,7,,1,34,21,3,,,,,,Realtime
+Vapi,,"Phase-1 GIDC, Vapi - GPCB",20.362421,72.918013,07-18-2026 21:00:00,2026,7,3,Monsoon,40,51,,16,,4,,12,14,,,,,,Realtime
+Delhi,,"DTU, Delhi - CPCB",28.7500499,77.1112615,07-18-2026 21:00:00,2026,7,3,Monsoon,,20,,20,,5,24,33,18,,,,,,Realtime
+Gurugram,,"Sector-51, Gurugram - HSPCB",28.4227,77.0667,07-18-2026 21:00:00,2026,7,3,Monsoon,188,118,,31,,10,14,7,27,,,,,,Realtime
+Delhi,,"Najafgarh, Delhi - DPCC",28.570173,76.933762,07-18-2026 21:00:00,2026,7,3,Monsoon,27,31,,18,,7,35,8,21,,,,,,Realtime
+Bengaluru,,"City Railway Station, Bengaluru - KSPCB",12.9756843,77.5660749,07-18-2026 21:00:00,2026,7,3,Monsoon,,109,,31,,,59,15,,,,,,,Realtime
+Bengaluru,,"Hebbal, Bengaluru - KSPCB",13.029152,77.585901,07-18-2026 21:00:00,2026,7,3,Monsoon,9,26,,19,,2,22,14,44,,,,,,Realtime
+Chikkamagaluru,,"Kalyana Nagara, Chikkamagaluru - KSPCB",13.328028,75.797056,07-18-2026 21:00:00,2026,7,3,Monsoon,22,38,,17,,3,34,1,41,,,,,,Realtime
+Dharwad,,"Kalabhavan, Dharwad - KSPCB",15.459706,75.008381,07-18-2026 21:00:00,2026,7,3,Monsoon,47,62,,24,,6,36,8,30,,,,,,Realtime
+Gadag,,"Panchal Nagar, Gadag - KSPCB",15.411456,75.638133,07-18-2026 21:00:00,2026,7,3,Monsoon,23,35,,1,,4,20,31,20,,,,,,Realtime
+Bengaluru,,"BWSSB Kadabesanahalli, Bengaluru - CPCB",12.9352049,77.6814488,07-18-2026 21:00:00,2026,7,3,Monsoon,60,54,,3,,1,37,4,22,,,,,,Realtime
+Indore,,"Chhoti Gwaltoli, Indore - MPPCB",22.431,75.5213,07-18-2026 21:00:00,2026,7,3,Monsoon,42,84,,69,,5,31,22,24,,,,,,Realtime
+Indore,,"Airport Area, Indore - IMC",22.7289,75.8076,07-18-2026 21:00:00,2026,7,3,Monsoon,65,60,,72,,0,39,7,5,,,,,,Realtime
+Jabalpur,,"Govindh Bhavan Colony, Jabalpur - JMC",23.163174,79.973061,07-18-2026 21:00:00,2026,7,3,Monsoon,228,218,,10,,3,15,2,34,,,,,,Realtime
+Jabalpur,,"Suhagi, Jabalpur - JMC",23.218135,79.95777,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,55,,6,,,,,,Realtime
+Katni,,"Gole Bazar, Katni - MPPCB",23.50016,80.23284,07-18-2026 21:00:00,2026,7,3,Monsoon,47,75,,13,,2,34,25,22,,,,,,Realtime
+Sirsa,,"F-Block, Sirsa - HSPCB",29.5364,75.0158,07-18-2026 21:00:00,2026,7,3,Monsoon,18,24,,19,,13,56,22,62,,,,,,Realtime
+Srinagar,,"Khunmoh, Srinagar - JKPCC",34.06313,74.96017,07-18-2026 21:00:00,2026,7,3,Monsoon,20,49,,13,,,,5,,,,,,,Realtime
+Dewas,,"Bhopal Chauraha, Dewas - MPPCB",22.9682591,76.064118,07-18-2026 21:00:00,2026,7,3,Monsoon,57,92,,84,,3,35,27,14,,,,,,Realtime
+Thiruvananthapuram,,"Plammoodu, Thiruvananthapuram - Kerala PCB",8.5149093,76.9435879,07-18-2026 21:00:00,2026,7,3,Monsoon,19,28,,,,0,24,15,13,,,,,,Realtime
+Bhopal,,"T T Nagar, Bhopal - MPPCB",23.233584,77.400574,07-18-2026 21:00:00,2026,7,3,Monsoon,41,85,,14,,5,37,22,16,,,,,,Realtime
+Hubballi,,"Lingaraj Nagar, Hubballi - KSPCB",15.3714823,75.1160168,07-18-2026 21:00:00,2026,7,3,Monsoon,33,49,,9,,2,15,2,29,,,,,,Realtime
+Ambernath,,"Chinchpada, Ambernath - MPCB",19.215784,73.199781,07-18-2026 21:00:00,2026,7,3,Monsoon,46,,,20,,3,10,7,8,,,,,,Realtime
+Badlapur,,"Katrap, Badlapur - MPCB",19.16485,73.23409,07-18-2026 21:00:00,2026,7,3,Monsoon,28,51,,16,,7,18,3,25,,,,,,Realtime
+Bhiwandi,,"Gokul Nagar, Bhiwandi - MPCB",19.309073,73.057223,07-18-2026 21:00:00,2026,7,3,Monsoon,25,41,,25,,7,18,4,30,,,,,,Realtime
+Nanded,,"Sneh Nagar, Nanded - MPCB",19.173852,77.296291,07-18-2026 21:00:00,2026,7,3,Monsoon,23,35,,8,,4,24,2,40,,,,,,Realtime
+Nashik,,"MIDC Ambad, Nashik - MPCB",19.95022,73.73148,07-18-2026 21:00:00,2026,7,3,Monsoon,42,75,,3,,2,11,2,17,,,,,,Realtime
+Navi Mumbai,,"Sector-2E Kalamboli, Navi Mumbai - MPCB",19.02579,73.10297,07-18-2026 21:00:00,2026,7,3,Monsoon,24,52,,8,,4,16,3,13,,,,,,Realtime
+Mumbai,,"Mindspace-Malad West, Mumbai - MPCB",19.1878657,72.8304069,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,10,,48,,,,,,Realtime
+Mumbai,,"Bandra Kurla Complex, Mumbai - IITM",19.053536,72.84643,07-18-2026 21:00:00,2026,7,3,Monsoon,16,104,,5,,3,9,,18,,,,,,Realtime
+Mumbai,,"Borivali East, Mumbai - IITM",19.23241,72.86895,07-18-2026 21:00:00,2026,7,3,Monsoon,40,68,,22,,9,47,,50,,,,,,Realtime
+Mumbai,,"Powai, Mumbai - MPCB",19.1375,72.915056,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,6,,,,15,,,,,,,Realtime
+Mumbai,,"Kherwadi_Bandra East, Mumbai - MPCB",19.0632143,72.8456324,07-18-2026 21:00:00,2026,7,3,Monsoon,,45,,8,,4,12,3,23,,,,,,Realtime
+Dombivli,,"Kalu Nagar, Dombivli - MPCB",19.2268427,73.0788456,07-18-2026 21:00:00,2026,7,3,Monsoon,9,20,,11,,1,9,4,14,,,,,,Realtime
+Hingoli,,"Ashta Vinayak Nagar, Hingoli - MPCB",19.710842,77.151824,07-18-2026 21:00:00,2026,7,3,Monsoon,28,38,,9,,1,16,5,30,,,,,,Realtime
+Kalyan,,"Pimpleshwar Mandir, Kalyan - MPCB",19.192056,72.9585188,07-18-2026 21:00:00,2026,7,3,Monsoon,33,56,,7,,16,48,11,16,,,,,,Realtime
+Kolhapur,,"Shivaji University, Kolhapur - MPCB",16.6870449,74.2505872,07-18-2026 21:00:00,2026,7,3,Monsoon,20,,,,,3,,,7,,,,,,Realtime
+Pithampur,,"Sector-2 Industrial Area, Pithampur - MPPCB",22.624758,75.675238,07-18-2026 21:00:00,2026,7,3,Monsoon,72,66,,,,,29,,42,,,,,,Realtime
+Singrauli,,"Suryakiran Bhawan NCL, Singrauli - MPPCB",24.10897,82.64558,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,22,,17,,,,,,Realtime
+Mira-Bhayandar,,"Bhayandar West, Mira-Bhayandar - MPCB",19.296481,72.840923,07-18-2026 21:00:00,2026,7,3,Monsoon,27,35,,2,,4,14,3,13,,,,,,Realtime
+Mumbai,,"Sion, Mumbai - MPCB",19.047,72.8746,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,38,,6,18,,,,,,,,Realtime
+Jaipur,,"Adarsh Nagar, Jaipur - RSPCB",26.902909,75.836858,07-18-2026 21:00:00,2026,7,3,Monsoon,50,63,,23,,5,32,24,49,,,,,,Realtime
+Jaipur,,"Mansarovar Sector-12, Jaipur - RSPCB",26.843698,75.766894,07-18-2026 21:00:00,2026,7,3,Monsoon,35,77,,16,,9,27,4,9,,,,,,Realtime
+Jodhpur,,"Mandor, Jodhpur - RSPCB",26.358805,73.047444,07-18-2026 21:00:00,2026,7,3,Monsoon,52,105,,10,,6,16,4,19,,,,,,Realtime
+Brajrajnagar,,"GM Office, Brajrajnagar - OSPCB",21.8004996,83.8396977,07-18-2026 21:00:00,2026,7,3,Monsoon,25,35,,24,,5,24,24,45,,,,,,Realtime
+Rourkela,,"Sector-2, Rourkela - OSPCB",22.245,84.88111111,07-18-2026 21:00:00,2026,7,3,Monsoon,50,34,,11,,,20,,,,,,,,Realtime
+Jodhpur,,"Jhalamand, Jodhpur - RSPCB",26.215415,73.070156,07-18-2026 21:00:00,2026,7,3,Monsoon,50,88,,7,,13,12,1,28,,,,,,Realtime
+Kota,,"Nayapura, Kota - RSPCB",25.196024,75.855668,07-18-2026 21:00:00,2026,7,3,Monsoon,46,84,,16,,4,20,12,38,,,,,,Realtime
+Baripada,,"Meher Colony, Baripada - OSPCB",21.941841,86.728318,07-18-2026 21:00:00,2026,7,3,Monsoon,39,73,,11,,2,30,7,48,,,,,,Realtime
+Banswara,,"Rati Talai, Banswara - RSPCB",23.55519,74.44001,07-18-2026 21:00:00,2026,7,3,Monsoon,104,131,,20,,2,13,7,28,,,,,,Realtime
+Baran,,"Bamboliya, Baran - RSPCB",25.106006,76.469948,07-18-2026 21:00:00,2026,7,3,Monsoon,55,66,,17,,5,47,10,39,,,,,,Realtime
+Bharatpur,,"Krishna Nagar, Bharatpur - RSPCB",27.215415,77.50873,07-18-2026 21:00:00,2026,7,3,Monsoon,12,21,,10,,15,,2,42,,,,,,Realtime
+Bhiwadi,,"RIICO Ind. Area III, Bhiwadi - RSPCB",28.194909,76.862296,07-18-2026 21:00:00,2026,7,3,Monsoon,72,80,,35,,10,32,12,18,,,,,,Realtime
+Jalandhar,,"Civil Line, Jalandhar - PPCB",31.321907,75.578914,07-18-2026 21:00:00,2026,7,3,Monsoon,35,53,,34,,5,51,19,45,,,,,,Realtime
+Mandi Gobindgarh,,"RIMT University, Mandi Gobindgarh - PPCB",30.649961,76.331442,07-18-2026 21:00:00,2026,7,3,Monsoon,65,108,,25,,5,100,19,39,,,,,,Realtime
+Dausa,,"Khatikan Mohalla, Dausa - RSPCB",26.895552,76.334753,07-18-2026 21:00:00,2026,7,3,Monsoon,31,106,,24,,9,61,2,24,,,,,,Realtime
+Hanumangarh,,"Housing Board, Hanumangarh - RSPCB",29.61075,74.283608,07-18-2026 21:00:00,2026,7,3,Monsoon,10,36,,6,,11,26,9,18,,,,,,Realtime
+Jaipur,,"Police Commissionerate, Jaipur - RSPCB",26.9164092,75.7994901,07-18-2026 21:00:00,2026,7,3,Monsoon,58,62,,17,,9,48,18,22,,,,,,Realtime
+Solapur,,"Ratandeep Housing Society, Solapur - MPCB",17.65439,75.90649,07-18-2026 21:00:00,2026,7,3,Monsoon,27,39,,18,,4,19,3,20,,,,,,Realtime
+Solapur,,"Dnyaneshwar Nagar, Solapur - MPCB",17.6336264,75.9132495,07-18-2026 21:00:00,2026,7,3,Monsoon,17,27,,9,,9,11,1,23,,,,,,Realtime
+Sri Ganganagar,,"Old City, Sri Ganganagar - RSPCB",29.931624,73.864511,07-18-2026 21:00:00,2026,7,3,Monsoon,37,54,,22,,4,35,4,,,,,,,Realtime
+Varanasi,,"Maldahiya, Varanasi - UPPCB",25.32393,82.99687,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,25,,3,,,,,,Realtime
+Vrindavan,,"Omex Eternity, Vrindavan - UPPCB",27.571409,77.655757,07-18-2026 21:00:00,2026,7,3,Monsoon,,26,,27,,8,20,33,16,,,,,,Realtime
+Dindigul,,"Mendonsa Colony, Dindigul - TNPCB",10.358535,77.984321,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,8,,,,,,,,Realtime
+Hyderabad,,"Kokapet, Hyderabad - TSPCB",17.393559,78.339194,07-18-2026 21:00:00,2026,7,3,Monsoon,43,57,,12,,2,32,9,25,,,,,,Realtime
+Agartala,,"Bardowali, Agartala - Tripura SPCB",23.8175497,91.2726974,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,33,,17,,,,,,Realtime
+Lucknow,,"B R Ambedkar University, Lucknow - UPPCB",26.766433,80.927299,07-18-2026 21:00:00,2026,7,3,Monsoon,30,34,,11,,3,23,48,54,,,,,,Realtime
+Chennai,,"Perungudi, Chennai - TNPCB",12.9533,80.2357,07-18-2026 21:00:00,2026,7,3,Monsoon,56,103,,5,,0,25,5,4,,,,,,Realtime
+Prayagraj,,"Nagar Nigam, Prayagraj - UPPCB",25.44919916,81.82735986,07-18-2026 21:00:00,2026,7,3,Monsoon,14,23,,5,,23,19,30,22,,,,,,Realtime
+Prayagraj,,"Motilal Nehru NIT, Prayagraj - UPPCB",25.494,81.863,07-18-2026 21:00:00,2026,7,3,Monsoon,17,115,,12,,8,8,30,20,,,,,,Realtime
+Meerut,,"MIET College, Meerut - UPPCB",28.972677,77.641018,07-18-2026 21:00:00,2026,7,3,Monsoon,14,32,,9,,5,48,1,21,,,,,,Realtime
+Moradabad,,"Jigar Colony, Moradabad - UPPCB",28.856664,78.772638,07-18-2026 21:00:00,2026,7,3,Monsoon,23,29,,25,,6,40,45,19,,,,,,Realtime
+Bulandshahr,,"Yamunapuram, Bulandshahr - UPPCB",28.406963,77.849831,07-18-2026 21:00:00,2026,7,3,Monsoon,12,12,,9,,10,42,7,9,,,,,,Realtime
+Howrah,,"Padmapukur, Howrah - WBPCB",22.5687319,88.2797276,07-18-2026 21:00:00,2026,7,3,Monsoon,27,53,,30,,7,59,10,11,,,,,,Realtime
+Howrah,,"Belur Math, Howrah - WBPCB",22.629801,88.352017,07-18-2026 21:00:00,2026,7,3,Monsoon,41,63,,43,,4,23,7,8,,,,,,Realtime
+Kolkata,,"Jadavpur, Kolkata - WBPCB",22.49929,88.36917,07-18-2026 21:00:00,2026,7,3,Monsoon,50,54,,19,,14,24,5,10,,,,,,Realtime
+Kolkata,,"Bidhannagar, Kolkata - WBPCB",22.58157048,88.41002457,07-18-2026 21:00:00,2026,7,3,Monsoon,30,60,,14,,5,37,10,125,,,,,,Realtime
+Siliguri,,"Ward-32 Bapupara, Siliguri - WBPCB",26.6879226,88.4152495,07-18-2026 21:00:00,2026,7,3,Monsoon,16,21,,164,,15,29,13,24,,,,,,Realtime
+Chhapra,,"Darshan Nagar, Chhapra - BSPCB",25.7808257,84.7446768,07-18-2026 21:00:00,2026,7,3,Monsoon,57,100,,2,,3,93,21,4,,,,,,Realtime
+Bilaspur,,"Mangala, Bilaspur - NTPC",22.08815,82.13737,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,,,,17,,,,,,,,Realtime
+Delhi,,"Dr. Karni Singh Shooting Range, Delhi - DPCC",28.498571,77.26484,07-18-2026 21:00:00,2026,7,3,Monsoon,17,21,,15,,6,27,8,14,,,,,,Realtime
+Delhi,,"Okhla Phase-2, Delhi - DPCC",28.530785,77.271255,07-18-2026 21:00:00,2026,7,3,Monsoon,23,,,19,,10,24,10,16,,,,,,Realtime
+Rohtak,,"MD University, Rohtak - HSPCB",28.52123,76.37138,07-18-2026 21:00:00,2026,7,3,Monsoon,28,51,,10,,,35,11,34,,,,,,Realtime
+Jabalpur,,"Gupteshwar, Jabalpur - JMC",23.142888,79.916147,07-18-2026 21:00:00,2026,7,3,Monsoon,34,73,,20,,2,28,6,8,,,,,,Realtime
+Chikkaballapur,,"Chikkaballapur Rural, Chikkaballapur - KSPCB",13.428828,77.731418,07-18-2026 21:00:00,2026,7,3,Monsoon,25,49,,3,,1,35,18,38,,,,,,Realtime
+Chandrapur,,"Chauhan Colony, Chandrapur - MPCB",19.9629,79.298714,07-18-2026 21:00:00,2026,7,3,Monsoon,27,46,,16,,2,49,21,16,,,,,,Realtime
+Jalna,,"Old MIDC, Jalna - MPCB",19.854616,75.905894,07-18-2026 21:00:00,2026,7,3,Monsoon,32,45,,19,,4,15,10,40,,,,,,Realtime
+Mumbai,,"Byculla, Mumbai - BMC",18.9767,72.838,07-18-2026 21:00:00,2026,7,3,Monsoon,17,63,,14,,2,18,7,6,,,,,,Realtime
+Jaipur,,"RIICO Sitapura, Jaipur - RSPCB",26.786682,75.827928,07-18-2026 21:00:00,2026,7,3,Monsoon,43,67,,23,,2,27,3,15,,,,,,Realtime
+Alwar,,"Moti Doongri, Alwar - RSPCB",27.554793,76.611536,07-18-2026 21:00:00,2026,7,3,Monsoon,,67,,73,,9,55,43,27,,,,,,Realtime
+Karauli,,"Satyawati Vihar, Karauli - RSPCB",26.506177,77.025989,07-18-2026 21:00:00,2026,7,3,Monsoon,27,31,,37,,6,10,,59,,,,,,Realtime
+Khairthal,,"New Anaj Mandi, Khairthal - RSPCB",27.8015617,76.6365217,07-18-2026 21:00:00,2026,7,3,Monsoon,,,,6,,4,17,4,28,,,,,,Realtime
+Bikaner,,"MM Ground, Bikaner - RSPCB",28.018792,73.292658,07-18-2026 21:00:00,2026,7,3,Monsoon,24,88,,16,,7,27,3,50,,,,,,Realtime
+Sangli,,"Vijay Nagar, Sangli - MPCB",16.5038,74.3623,07-18-2026 21:00:00,2026,7,3,Monsoon,18,36,,7,,2,15,5,24,,,,,,Realtime
+Howrah,,"Ghusuri, Howrah - WBPCB",22.611968,88.347422,07-18-2026 21:00:00,2026,7,3,Monsoon,53,75,,56,,3,26,8,13,,,,,,Realtime
